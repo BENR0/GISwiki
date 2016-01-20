@@ -1,0 +1,21 @@
+===== GIS - Knigge, Do's and Don't's zur Arbeit mit GIS =====
+Folgende Unterpunkte sollten bei der Speicherung von Dateien im 05_GIS Ordner unbedingt befolgt werden, da dies zeitintensiven technischen Problemen vorbeugt.
+Darüber hinaus sind speziell die Empfehlungen zu Dateinamen auch global sinnvoll aber optional. Die Erfahrung zeigt jedoch das die Macht der Gewohnheit dazu führt das ein Schema konsequent zur Anwendung kommt wenn man es überall anwedet.
+
+
+==== Dateinamen ====
+Bei Ordner- und Dateinamen im Unterordner 05_GIS ist darauf Acht zu geben keine Umlaute, Leerzeichen, Sonderzeichen oder Satzzeichen zu verwenden, da dies die Arbeit, im speziellen mit ArcGIS, erschwert wenn nicht gar unmöglich macht.
+Anstelle von Leerzeichen sind Unterstriche zu verwenden
+
+**<color red>FALSCH</color>**
+> <del>sdfg hij-6&7+klöä.pdf</del>
+**<span style="font-size:150%;">RICHTIG</span>**
+> sdfg_hij_6und7_kloe.pdf
+
+
+==== Attribut Tabellen ====
+Attribut Tabellen (Dateiendung .dbf) sind unter keinen Umständen außerhalb von ArcGIS/ QGIS Bearbeitungssitzungen zu bearbeiten z.B. mit Libre- oder Open Office.
+Falls mit Attribut Daten außerhalb von ArcGIS/ QGIS gearbeitet werden soll ist die entweder die .dbf Datei zu kopieren oder aus GIS heraus zu exportieren (siehe z.B. [[gis:qgis:export_attribut_daten| Attribut Daten exportieren]]).
+
+==== Verschieben von GIS-Projekten ====
+Projekte sollten auf keinen Fall innerhalb des Windows Explorers verschoben werden sondern stets über eine Umspeicherung aus GIS heraus an den gewünschten Dateipfad gelangen. Dazu //Datei > Speichern unter// wählen und den gewünschten Pfad und Dateinamen angeben.

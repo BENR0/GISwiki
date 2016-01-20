@@ -1,0 +1,23 @@
+===== Koordinatensysteme und Projektionen =====
+
+==== Schnellinfo ====
+
+Die bei uns gängisten Koordinatensysteme und Projektionen sind
+
+  * Gauß-Krüger (Zone 3 und 4) meist im DHDN (Deutschen Hauptdreiecksnetz) und Besselellipsoid, abgekürzt mit GK3/ GK4
+  * UTM (Zone 31N, 32N, 33N) mit WGS oder ETRS89 Ellipsoid , wobei die Zonen 31N und 33N nur die Randbereiche Deutschlands betreffen.
+
+Das Koordinatensystem ETRS89/ UTM ist bei Wahlmöglichkeit zu bevorzugen da dieses in Zukunft auch von allen Landesämtern so umgesetzt wird. Für praktische Belange ist bei UTM Koordinaten der WGS84 und ETRS89 Ellipsoid als übereinstimmend zu betrachten so dass hier keine Unstimmigkeiten bei der Verwendung auftreten sollten.
+
+=== EPSG Codes ===
+Eine eineindeutige Referenz für Koordinatensysteme ist mit den international gültigen EPSG Codes möglich.
+In folgender Tabelle findet sich eine Auflistung der uns hauptsächlich betreffenden EPSG Codes und Koordinatensysteme.
+
+^ Koordinatensystem        ^ EPSG Code   ^
+| Gauß-Krüger Zone 3, DHDN (GK3) | 31467 |
+| Gauß-Krüger Zone 4, DHDN (GK4) | 31468 |
+| ETRS/UTM Zone 31N (N-zE) | 5651 |
+| ETRS/UTM Zone 32N (N-zE) | 5652 |
+| ETRS/UTM Zone 33N (N-zE) | 5653 |
+
+==== Hintergrund ====

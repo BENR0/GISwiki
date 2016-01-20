@@ -1,0 +1,12 @@
+index/
+*.i
+cache/
+meta/
+locks/
+attic/
+_dummy
+media/gis/qgis/Thumbs.db
+deleted.files
+.htaccess
+security.xcf
+security.png

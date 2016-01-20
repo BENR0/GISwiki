@@ -1,0 +1,6 @@
+===== Statistik von Attributtabellenspalten berechnen =====
+
+Summen, Mittelwerte, Standardabweichung etc. von ganzen Spalten oder ausgewählten Einträgen können in einfacher
+Weise über das Tool Grundstatistik zu finden unter //Vektor > Analyse-Werkzeuge > Grundstatistik// berechnet werden.
+Hierbei ist nur der entsprechende Layer zu wählen und gegebenenfalls das Häckchen in der Checkbox für "Nur gewählte Objekte verwenden" zu setzen.
+{{:gis:qgis:statistik.png?200|}}

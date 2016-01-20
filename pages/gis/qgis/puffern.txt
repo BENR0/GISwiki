@@ -1,0 +1,14 @@
+===== Erstellung eines Puffers =====
+
+Das Erstellen eines Puffers erfolgt über den Menü Eintrag //Vektor > Geoverarbeitungswerkzeuge > Puffer// (siehe Screenshot). In dem sich öffnenden Popup Dialog sind folgende Einstellungen möglich:
+  * Eingabevektorlayer <- der Layer in welchem die Objekte liegen welche gepuffert werden sollen.
+  * Nur gewählte Objekte nutzen <- Option nur Objekte zu Puffern welche vorher ausgewählt wurden.
+  * Zu approximierende Segmente <- Anzal der Segmente aus welchen Kreisbögen erstellt werden. Eine höhere Anzahl zeigt sich in einem "runderen" Erscheinungsbild der Kreisbögen. Der Default ist 5. Dieser Wert kann aber ruhig auf z.B. 50 erhöht werden da dies keinen Rechner überfordern sollte.
+  * Pufferabstand <- Pufferabstand (sollte in der Regel in der Einheit Meter angegeben werden da Shapefiles in der Regel in Gauß-Krüger oder UTM Koordinaten vorliegen)
+  * Pufferabstandsfeld <- Nutzung eines Feldes (Spalte) der Attributtabelle als Pufferabstand. Wird nicht benötigt wenn normaler Pufferabstand genutzt wird.
+  * Ausgabeshapedatei <- Pfad und Name des Speicherortes für die Shapedatei in welcher der Puffer angelegt wird. Siehe hierzu auch [[gis_knigge:dateinamen|Dateinamen Konventionen]]:
+  * Ergebnis der Karte hinzufügen <- Fügt nach Erstellung des Puffers die Shapedatei zum Projekt hinzu:
+
+{{:gis:qgis:puffern.png?200|Puffer Menü Eintrag}}
+
+{{:gis:qgis:puffer1.png?200|Puffer Popup Fenster}}
