@@ -1,1 +1,1 @@
-  * [[gis:koordinatensysteme|Koordinatensysteme]]
+<nspages -simpleList -subns -h1 -exclude:start>

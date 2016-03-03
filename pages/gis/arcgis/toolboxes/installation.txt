@@ -1,0 +1,20 @@
+==== Installation ====
+
+=== Toolbar ===
+Grundsätzlich ist lediglich bei der Toolbar eine Installation notwendig, da diese ein sogenanntes Python Addin ist.
+Diese muss leider auch bei Updates erneut installiert werden. Nach der Installation ist ein ArcGIS Neustart notwendig damit die Toolbar angezeigt wird, respektive neue Buttons/ Bugfixes aktiv werden.
+
+Die installation kann durch Doppelklick auf die Datei **EnProTo_addin.esriaddin** im Ordner
+
+    "V:\Vorlagen_CAD_GIS\GIS\Toolboxes\EnProTo\EnProTo_addin"
+
+vorgenommen werden.
+
+=== Toolbox ===
+
+Die Tools der Toolbox können einfach durch Navigation zum Ordner:
+
+    "V:\Vorlagen_CAD_GIS\GIS\Toolboxes\EnProTo"
+
+im Katalog genutzt werden, oder auch zur Liste der Toolboxes über rechtsklick hinzugefügt werden.
+

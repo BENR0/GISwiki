@@ -1,1 +1,2 @@
-====== PlayGround ======
+====== nspages plugin ======
+https://www.dokuwiki.org/plugin:nspages

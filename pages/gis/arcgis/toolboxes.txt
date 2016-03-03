@@ -1,0 +1,4 @@
+=== ArcGIS Toolboxes ===
+  * [[gis:arcgis:toolboxes:installation|Installation]]
+  * [[gis:arcgis:toolboxes:toolbar|Toolbar]]
+  * [[gis:arcgis:toolboxes:toolbox|Toolbox]]
