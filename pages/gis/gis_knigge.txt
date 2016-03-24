@@ -19,3 +19,8 @@ Falls mit Attribut Daten außerhalb von ArcGIS/ QGIS gearbeitet werden soll ist 
 
 ==== Verschieben von GIS-Projekten ====
 Projekte sollten auf keinen Fall innerhalb des Windows Explorers verschoben werden sondern stets über eine Umspeicherung aus GIS heraus an den gewünschten Dateipfad gelangen. Dazu //Datei > Speichern unter// wählen und den gewünschten Pfad und Dateinamen angeben.
+
+==== GIS Tabellen ====
+Das GIS Team nutzt einige Tabellen wie z.B. mit Vogelnamen oder Biototypen Daten zur Anbindung an vorhandene Daten. Hierfür sind diese Tabellen für den GIS Einsatz allgemein sowie ArcGIS im speziellen optimiert worden.
+Diese Tabellen sind in der Regel im Dateinamen mit einem "_GIS" Anhang gekennzeichnet oder innerhalb eines Tabellen Dokuments mit einem ebenso gekennzeichneten Tabellenblatt versehen.
+Es ist dringend davon abgeraten diese Tabellen in irgendeiner Art und Weise Änderungen zu unterziehen welche nicht mit dem GIS Team abgesproche ist.
