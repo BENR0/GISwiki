@@ -10,3 +10,6 @@ deleted.files
 .htaccess
 security.xcf
 security.png
+*.db
+media_attic/
+media_meta/
