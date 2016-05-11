@@ -50,4 +50,8 @@ Es ist unbedingt notwendig das das Koordinatensystem eines der folgenden EPSG Co
 
 
 ==== WEAangebot ====
-Tool um die Angebotserstellung für WEA zu vereinfachen. Nach Eingabe der Input Features und der gewünschten Radien werden die Puffer erstellt und mit den Corinne Daten verschnitten. Anschließend werden die Daten pivotiert und als Exceltabelle ausgeschrieben.
+Tool um die Angebotserstellung für WEA zu vereinfachen. Nach Eingabe der Input Features und der gewünschten Radien werden die Puffer erstellt und mit den Corinne Daten verschnitten. Anschließend werden die Daten pivotiert und als Exceltabelle ausgeschrieben. Darüber hinaus werden die Waldanteile der Puffer automatisch in die Beschreibung der Layer Symbologie eingetragen sodass nur noch eine Legende erstellt werden muss damit diese Informationen angezeigt werden.
+
+<note important>
+Bei der Eingabe der Speicherorte für die Shape Files ist zu beachten das in den Dialogen die Dateiendung ".shp" mit eingegeben wird. Leider findet ArcGIS sonst die Shapefiles in den darauf folgenden Bearbeitungsschritten nicht. Ob dies ein ArcGIS oder Tool spezifischer Bug ist weiß ich nicht. Sollte das Problem gelöst sein gibt es ein Update.
+</note>

@@ -77,5 +77,18 @@ Wird z.B. zur Erstellung einer Geländekarte unser GK Template (siehe auch [[gis
 Dieser Button listet den Speicherort aller im Projekt vorhandenen Layer in einer Textdatei auf welche dann z.B. mit entsprechendem QGIS script und dem QGIS Scriptrunner Plugin in ein QGIS Projekt importiert werden können.
 Dieser Button ist eigentlich ein kleiner Hack gewesen aber auf Wunsch trotzdem in der Toolbar geblieben und mehr eine Zwischenlösung um etwas schneller ArcGIS Projekte in ein QGIS Projekt zu überführen.
 
-==== Get pip ====
-Dieser Button muss nur einmal ausgeführt werden und dient ledigtlich dazu für manche Toolboxen notwendige python module zu laden.
+
+==== ToGPX ====
+Button zum abspeichern vom ausgewählten Layer als GPX Datei.
+
+
+==== TB ====
+Beta Version zur Erstellung von BTT Legenden Texten.
+
+
+==== OSM ===
+<note warning>
+BETA VERSION !
+</note>
+Drop Down Menü zum herunterladen von OSM Daten für den Extent des im Table of Contents gewählten Layer.
+Es wird automatisch, falls nicht vorhanden, unter "av_daten" eine Verzeichnis "10_OSM" angelegt in welchem die heruntergeladenen Daten nach Thema gespeichert werden. Anschließend werden die Daten als Shapefile exportiert und in das Koordinatensystem des Data frame  projeziert und einem Gruppenlayer mit dem Namen des im Dropdown gewählten Themas dem Projekt hinzugefügt.
