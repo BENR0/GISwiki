@@ -17,6 +17,8 @@ Im folgenden wird jedes Tool und seine Anwendung kurz erklärt.
 Ist ein Layer nach Einzelwerten kategorisiert, beispielsweise Vogelnamen, so ist es häufig notwendig in der Legende auch die Lateinischen Namen anzugeben. Hierfür eignet sich ganz hervorragend das Beschreibungsfeld im Kategoriendialog. Leider bietet ArcGIS von Haus aus keine Möglichkeit dieses basierend auf einer Spalte auszufüllen.
 Dieses Tool schafft hier abhilfe. Es können ein oder mehrere Felder gewählt werden deren Information dann basierend auf den Kategoriewerten in die Beschreibung eingefügt werden. Zusätzlich kann für jedes Feld angegeben werden ob dieses Fett, Kursiv oder unterstrichen dargestellt werden soll.
 
+Bei Benutzung einer Font mit fester Schriftbreite werden im Falle von mehreren Felder in der Beschreibung diese auch richtig ausgerichtet.
+
 {{:gis:arcgis:toolboxes:adddescription.png?300|}}
 
 

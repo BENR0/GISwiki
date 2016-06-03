@@ -92,3 +92,7 @@ BETA VERSION !
 </note>
 Drop Down Menü zum herunterladen von OSM Daten für den Extent des im Table of Contents gewählten Layer.
 Es wird automatisch, falls nicht vorhanden, unter "av_daten" eine Verzeichnis "10_OSM" angelegt in welchem die heruntergeladenen Daten nach Thema gespeichert werden. Anschließend werden die Daten als Shapefile exportiert und in das Koordinatensystem des Data frame  projeziert und einem Gruppenlayer mit dem Namen des im Dropdown gewählten Themas dem Projekt hinzugefügt.
+
+=== Schutzgebiete ===
+Informationen zu den Schutzgebeitsklassen finden sich hier:
+[[http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dprotected_area|OSM Schutzgebiete Tags]]
