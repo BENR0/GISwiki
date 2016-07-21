@@ -7,7 +7,7 @@ Die bei uns gängisten Koordinatensysteme und Projektionen sind
   * Gauß-Krüger (Zone 3 und 4) meist im DHDN (Deutschen Hauptdreiecksnetz) und Besselellipsoid, abgekürzt mit GK3/ GK4
   * UTM (Zone 31N, 32N, 33N) mit WGS oder ETRS89 Ellipsoid , wobei die Zonen 31N und 33N nur die Randbereiche Deutschlands betreffen.
 
-Das Koordinatensystem ETRS89/ UTM ist bei Wahlmöglichkeit zu bevorzugen da dieses in Zukunft auch von allen Landesämtern so umgesetzt wird. Für praktische Belange ist bei UTM Koordinaten der WGS84 und ETRS89 Ellipsoid als übereinstimmend zu betrachten so dass hier keine Unstimmigkeiten bei der Verwendung auftreten sollten.
+Das Koordinatensystem ETRS89/ UTM ist bei Wahlmöglichkeit zu bevorzugen da dieses in Zukunft auch von allen Landesämtern so umgesetzt wird.
 
 === EPSG Codes ===
 Eine eineindeutige Referenz für Koordinatensysteme ist mit den international gültigen EPSG Codes möglich.
@@ -27,4 +27,14 @@ Eine Auflistung mit Suchfunktion aller in Verwendung befindlicher EPSG Codes kö
  - [[http://spatialreference.org/]]
 
 zu finden.
+
+==== Transformationen ====
+
+Bei der Transformation von WGS84 und ETRS89 ist der Ellipsoid als übereinstimmend zu betrachten so dass hier, bei uns treffenden praktischen Belangen, keine Unstimmigkeiten bei der Verwendung auftreten sollten.
+Ist jedoch die gemeinsame Nutzung des DHDN sowie ETRS89 Datums in einem Projekt gegeben ist vorteilhafterweise der Genauigkeit wegen, eine Datumstransformation vorzunehmen. Für das gesamte Bundesgebiet betreffende Projekte ist hier mit Genauigkeiten von < 1m die BeTA2007 und für kleinräumigere Gebiete die NTv2 Gitterdatei (Genauigkeit < 3cm) zu verwenden.
+
+<note important>
+Es ist falls möglich immer die Reprojektion der On-the-fly Transformation der Geodaten vorzuziehen.
+</note>
+
 ==== Hintergrund ====
