@@ -1,6 +1,6 @@
-==== Installation ====
+====== Installation ======
 
-=== Toolbar ===
+===== Toolbar =====
 Grundsätzlich ist lediglich bei der Toolbar eine Installation notwendig, da diese ein sogenanntes Python Addin ist.
 Diese muss leider auch bei Updates erneut installiert werden. Nach der Installation ist ein ArcGIS Neustart notwendig damit die Toolbar angezeigt wird, respektive neue Buttons/ Bugfixes aktiv werden.
 
@@ -10,7 +10,7 @@ Die installation kann durch Doppelklick auf das Script **install_addin.py** im O
 
 vorgenommen werden.
 
-=== Toolbox ===
+===== Toolbox =====
 
 Die Tools der Toolbox können einfach durch Navigation zum Ordner:
 

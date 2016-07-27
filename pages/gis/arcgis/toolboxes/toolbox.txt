@@ -1,4 +1,4 @@
-===== Toolbox Überblick =====
+====== Toolbox Überblick ======
 Die Toolbox enthält einige Tools welche ohne diese so in ArcGIS überhaupt nicht möglich sind und/ oder nur  mit erheblichem Aufwand. Bei wiederholter Anwendung liefern sie somit reproduzierbare Ergebnisse und Fehler können hoffentlich vermieden werden.
 
 Die "Installation" der Toolbox bzw. wo diese zu finden ist kann im Artikel [[gis:arcgis:toolboxes:installation| Installation]] nachgelesen werden.
@@ -10,10 +10,10 @@ Falls Tools nicht das gewünschte Ergebnis bringen oder anderweitig Fehler aufta
 </note>
 
 
-===== Tools =====
+====== Tools ======
 Im folgenden wird jedes Tool und seine Anwendung kurz erklärt.
 
-==== AddDescriptionToFeatures ====
+===== AddDescriptionToFeatures =====
 Ist ein Layer nach Einzelwerten kategorisiert, beispielsweise Vogelnamen, so ist es häufig notwendig in der Legende auch die Lateinischen Namen anzugeben. Hierfür eignet sich ganz hervorragend das Beschreibungsfeld im Kategoriendialog. Leider bietet ArcGIS von Haus aus keine Möglichkeit dieses basierend auf einer Spalte auszufüllen.
 Dieses Tool schafft hier abhilfe. Es können ein oder mehrere Felder gewählt werden deren Information dann basierend auf den Kategoriewerten in die Beschreibung eingefügt werden. Zusätzlich kann für jedes Feld angegeben werden ob dieses Fett, Kursiv oder unterstrichen dargestellt werden soll.
 
@@ -22,27 +22,27 @@ Bei Benutzung einer Font mit fester Schriftbreite werden im Falle von mehreren F
 {{:gis:arcgis:toolboxes:adddescription.png?300|}}
 
 
-==== BatchAddFieldMerge ====
+===== BatchAddFieldMerge =====
 Oft sind Informationen der gleichen Art über verschiedene Layer verteilt man möchte aber gerne alle Informationen mit einem weiteren Layer verschneiden. Hierfür wäre es schön ein Shape file zu verschneiden anstatt mehrerer.
 Dieses Tool bietet die Möglichkeit alle Layer zusammenzuführen für eine Verschneidung und trotzdem die Herkunft einzelner Features den Ursprungslayern zu zuordnen.
 
-==== BatchCovnertPDFToTif ====
+===== BatchCovnertPDFToTif =====
 Nimmt alle PDF's im gewählten Ordner und konvertiert diese zu Tifs. Nützlich für eingescannte Kartierungen welche man georeferenzieren möchte (QGIS kann PDF's direkt laden und georeferenzieren).
 
 
-==== DefinitionQueryPolygons ====
+===== DefinitionQueryPolygons =====
 Tool um Blattschnitte für den selben Kartenauschnitt zu erstellen um mittels Seitendefinitionsabfrage eine Kartenserie z.B. nach Vogelarten zu erstellen (Je Blatt eine Vogelart). Auf den gewünschten Maßstab zoomen dann das Tool aufrufen. Hier den Layer und Feld wählen welcher die Informationen enthält nach welchen die Kartenserie erstellt werden soll. Die Blattschnitte werden dem Projekt hinzugefügt und enthalten ein Feld mit der gewünschten Information welche nun mit einer Seitendefinitionsabfrage für die Kartenserie genutzt werden kann.
 
 
-==== KartenserieToPng ====
+===== KartenserieToPng =====
 Möglichkeit eine Kartenserie als PNG zu exportieren. Hilfreich um statt mit Screenshots eine Kartenserie für Textabbildungen zu nutzen.
 
 
-==== MultiPurposeBufferTool ====
+===== MultiPurposeBufferTool =====
 Erzeugt für die im Tooldialog ausgewählten Radien Puffer und fügt diese in einem Shapefile zusammen um nicht mehrere Puffer einzeln erstellen zu müssen. Die Puffer können auch auf einfache Weise mit dem vorhandenen lyr Style versehen werden.
 
 
-==== RNAanalyse ====
+===== RNAanalyse =====
 Tool um die RNA Analyse nicht per Hand machen zu müssen. Das Fishnet wird im 6000 m Radius um die im Tooldialog gewählten WEA Punkte erstellt und automatisch am Gitter der GK Koordinaten nach Messtischblättern orientiert.
 Die Flugbewegungen werden ausgewertet und jeweils die Grenzwerte für den zwei (75/25%) und drei Kategorien (70/20/Rest %) Fall berechnet kategorisiert und in das Fishnet übertragen. Das Gitter wird zum Schluss dem Projekt hinzugefügt und nach dem Vorlagen lyr file gestylt.
 
@@ -51,7 +51,7 @@ Es ist unbedingt notwendig das das Koordinatensystem eines der folgenden EPSG Co
 </note>
 
 
-==== WEAangebot ====
+===== WEAangebot =====
 Tool um die Angebotserstellung für WEA zu vereinfachen. Nach Eingabe der Input Features und der gewünschten Radien werden die Puffer erstellt und mit den Corinne Daten verschnitten. Anschließend werden die Daten pivotiert und als Exceltabelle ausgeschrieben. Darüber hinaus werden die Waldanteile der Puffer automatisch in die Beschreibung der Layer Symbologie eingetragen sodass nur noch eine Legende erstellt werden muss damit diese Informationen angezeigt werden.
 
 <note important>

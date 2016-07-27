@@ -14,7 +14,7 @@ Mit Hilfe des Info Button tools (Button ganz links in Abb. 1) lassen sich Attrib
 
 {{:gis:qgis:infobutton.png?300|Abb. 3}}
 
-=== Einstellung der Farbe selektierter Featuers ===
+===== Einstellung der Farbe selektierter Featuers =====
 Die Farbe mit welcher die selektierten Objekte markiert werden kann in den Einstellungen (Abbildung 4 und 5) eingestellt werden.
 
 {{:gis:qgis:selektion_farbeinstellung_1.png?300|Abb. 4}}

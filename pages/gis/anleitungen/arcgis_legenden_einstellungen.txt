@@ -1,0 +1,23 @@
+====== Einstellungen im Legenden Wizard von ArcGIS ======
+
+Im Reiter **"Allgemein"** ist die Schriftgröße des Titel ggf. auf die **Font Arial** in **Schriftgröße 14 pt** einzustellen. Weiterhin empfiehl es sich im Unterpunkt Kartenverbindung nur den Obersten Haken gesetzt zu haben (siehe Bilder).
+
+{{:gis:anleitungen:legendeneinstellungen_01.png?200|Reiter "Allgemein"}}
+
+
+Im Reiter **"Themen"** gelangt man über einen Doppelklick in der dortigen Layer Liste zu den Eigenschaft dieses Elements.
+Hier werden folgende Einstellungen getroffen:
+
+  * **Beschriftung und Beschreibung:** Font Airal in der Schriftgröße 11 pt
+  * **Überschrift:** Font Airal in der Schriftgröße 12 pt Fett
+
+
+{{:gis:anleitungen:legendeneinstellungen_02.png?200|Reiter "Thema"}}
+
+
+Im Reiter **"Layout"** sind folgende Einstellungen zu treffen:
+
+  * **Muster:** Breite: 30 pt, Höhe: 15 pt
+  * **Lücken der Muster:** Siehe Bild.
+
+{{:gis:anleitungen:legendeneinstellungen_03.png?200|Reiter "Layout"}}

@@ -1,2 +1,2 @@
-== Sidebar ==
-{{indexmenu> gis#1|js navbar nocookie}}
+====== Menu ======
+{{indexmenu> .#1 .:gis#1 .:leitfaeden#1|js#tango.png navbar nocookie}}

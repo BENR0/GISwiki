@@ -1,8 +1,8 @@
-===== GIS - Knigge, Do's and Don't's zur Arbeit mit GIS =====
+====== GIS - Knigge, Do's and Don't's zur Arbeit mit GIS ======
 Grundsätzlich obliegt die grundsätzliches Entscheidungsgewalt über das Verzeichnis 05_GIS dem GIS Team. Ist es in Ausnahmefällen für Mitglieder anderer Teams nötig dort Daten abzulegen sind folgende Unterpunkte bei der Speicherung von Dateien im 05_GIS Ordner unbedingt zu befolgen, da dies zeitintensiven technischen Problemen vorbeugt.
 Darüber hinaus sind speziell die Empfehlungen zu Dateinamen auch global sinnvoll aber optional. Die Erfahrung zeigt jedoch das die Macht der Gewohnheit dazu führt das ein Schema konsequent zur Anwendung kommt wenn man es überall anwedet.
 
-==== Struktur des Verzeichnisses "05_GIS" ====
+===== Struktur des Verzeichnisses "05_GIS" =====
 Das Verzeichnis 05_GIS ist wie folgt in Unterverzeichnisse untergliedert welche entsprechend notierten Zwecken dienen.
 
 
@@ -20,7 +20,7 @@ Das Verzeichnis 05_GIS ist wie folgt in Unterverzeichnisse untergliedert welche 
   * **z_temp:**
     * Verzeichnis zum speichern von Zwischenergebnissen (in der Regel nicht zu nutzen, da darauf geachtet werden sollte Daten sofort korrekt unter "av_daten" abzulegen.
 
-==== Das Unterverzeichnis "av_daten" ====
+===== Das Unterverzeichnis "av_daten" =====
 Das Verzeichnis av_daten dient der Ablage jedweder GIS Daten nach Themen geordnet. Um hier die Orientierung zu erleichtern ist im folgenden Exemplarisch aufgelistet welcher Datensatz wo abgelegt werden soll:
 
   * **00_legenden:** Legenden betreffende Daten wie z.B. zu Annoations konvertierte Beschriftungen
@@ -33,7 +33,7 @@ Das Verzeichnis av_daten dient der Ablage jedweder GIS Daten nach Themen geordne
   * **10_OSM:** dieses Verzeichnis wird automatisch bei Benutzung des [[gis:arcgis:toolboxes:toolbar#OSM| OSM Buttons]] aus der Toolbar angelegt und wird zur Speicherung der runtergeladenen OSM Daten benötigt.
 
 
-==== Dateinamen ====
+===== Dateinamen =====
 Bei Ordner- und Dateinamen im Unterordner 05_GIS ist darauf Acht zu geben keine Umlaute, Leerzeichen, Sonderzeichen oder Satzzeichen zu verwenden, da dies die Arbeit, im speziellen mit ArcGIS, erschwert wenn nicht gar unmöglich macht.
 Anstelle von Leerzeichen sind Unterstriche zu verwenden
 
@@ -42,18 +42,18 @@ Anstelle von Leerzeichen sind Unterstriche zu verwenden
 **<span style="font-size:150%;">RICHTIG</span>**
 > sdfg_hij_6und7_kloe.pdf
 
-==== Dateinamen Konventionen (Abkürzunen) ====
-Darüber hinaus ist soweit möglich die vom GIS Team verabschiedete Konvention bzgl. der Abkürzungen von häufig verwendeten Schlüsselwörtern in Dateinamen einzuhalten. Eine Entsprechende Liste der Abkürzungen kann hier **######** eingesehen werden. Diese Liste ist nicht abschließend vollständige und Vorschläge zur sinnvollen Erweiterung werden von allen GIS Team stellen entgegen genommen.
+===== Dateinamen Konventionen (Abkürzungen) =====
+Darüber hinaus ist soweit möglich die vom GIS Team verabschiedete Konvention bzgl. der Abkürzungen von häufig verwendeten Schlüsselwörtern in Dateinamen einzuhalten. Eine Entsprechende Liste der Abkürzungen kann hier [[\\FIL-01\Vorlagen_CAD_GIS\Abk"]] eingesehen werden. Diese Liste ist nicht abschließend vollständige und Vorschläge zur sinnvollen Erweiterung werden von allen GIS Team stellen entgegen genommen.
 
 
-==== Attribut Tabellen ====
+===== Attribut Tabellen =====
 Attribut Tabellen (Dateiendung .dbf) sind unter keinen Umständen außerhalb von ArcGIS/ QGIS Bearbeitungssitzungen zu bearbeiten z.B. mit Libre- oder Open Office.
 Falls mit Attribut Daten außerhalb von ArcGIS/ QGIS gearbeitet werden soll ist die entweder die .dbf Datei zu kopieren oder aus GIS heraus zu exportieren (siehe z.B. [[gis:qgis:export_attribut_daten| Attribut Daten exportieren]]).
 
-==== Verschieben von GIS-Projekten ====
+===== Verschieben von GIS-Projekten =====
 Projekte sollten auf keinen Fall innerhalb des Windows Explorers verschoben werden sondern stets über eine Umspeicherung aus GIS heraus an den gewünschten Dateipfad gelangen. Dazu //Datei > Speichern unter// wählen und den gewünschten Pfad und Dateinamen angeben.
 
-==== GIS Tabellen ====
+===== GIS Tabellen =====
 Das GIS Team nutzt einige Tabellen wie z.B. mit Vogelnamen oder Biototypen Daten zur Anbindung an vorhandene Daten. Hierfür sind diese Tabellen für den GIS Einsatz allgemein sowie ArcGIS im speziellen optimiert worden.
 Diese Tabellen sind in der Regel im Dateinamen mit einem "_GIS" Anhang gekennzeichnet oder innerhalb eines Tabellen Dokuments mit einem ebenso gekennzeichneten Tabellenblatt versehen.
 Es ist dringend davon abgeraten diese Tabellen in irgendeiner Art und Weise Änderungen zu unterziehen welche nicht mit dem GIS Team abgesproche ist.

@@ -1,0 +1,33 @@
+ ====== Einstellungen der Schriftgrößen im Plankopf ======
+
+Für die Planköpfe ist es am einfachsten die [[gis:arcgis:templates|Templates]], soweit vorhanden, zu verwenden.
+In diesen sind in der Regel schon die richtigen Schriftgrößen sowie Maßstabsleisten und Nordpfeile enthalten und müssen somit ggf. nur geringfügig angepasst werden.
+
+
+Sollte kein passendes Template vorhanden sein zeigt die Erfahrung das folgende Schriftgrößen für den Plankopf der Leserlichkeit am Zuträglichsten sind. Ist davon auszugehen das das so erstellte Layout auch in Zukunft öfter gebraucht werden könnte ist dieses als Template abzulegen.
+
+{{:gis:anleitungen:plankopf.png?200|Plankopf}}
+
+
+===== A1 =====
+
+  * **Projekt:** Arial 16 pt Fett
+  * **Kartenname:** Arial 16 pt
+  * **3. Ebene:** Arial 14 pt
+
+===== A2 =====
+
+  * **Projekt:** Arial 14 pt Fett
+  * **Kartenname:** Arial 14 pt
+  * **3. Ebene:** Arial 12 pt
+
+===== A3 =====
+
+  * **Projekt:** Arial 11 pt Fett
+  * **Kartenname:** Arial 10 pt
+  * **3. Ebene:** Arial 8 pt
+
+
+====== Maßstabsleiste und Nordpfeil ======
+Als Nordpfeil ist der Pfeil **"ESRI North 6"** zu verwenden.
+Die Maßstabsleiste ist der Style **"Alternierende Maßstabsleiste 2 Metrisch"** zu verwenden. Hier ist darauf zu achten das ggf. die Einheit sowie das Label auf Meter/ Km eingstellt wird.

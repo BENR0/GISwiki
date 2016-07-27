@@ -1,6 +1,6 @@
-===== Export von Daten aus Attribut Tabellen =====
+====== Export von Daten aus Attribut Tabellen ======
 
-=== Möglichkeit 1 ===
+===== Möglichkeit 1 =====
 
 Zum Export von Daten aus Attributtabellen kann folgendermaßen vorgegangen werden.
   - Auswahl der zu exportierenden Daten, entweder per Auswahl der entsprechenden Zeilen, lagebezogene Auswahl (z.B. Puffer) oder per Attributabfrage.
@@ -10,7 +10,7 @@ Zum Export von Daten aus Attributtabellen kann folgendermaßen vorgegangen werde
 {{:gis:qgis:export_attributes1.png?200|}}
 
 
-=== Möglichkeit 2 ===
+===== Möglichkeit 2 =====
 
 Nach Auswahl der zu exportierenden Daten wie in Schritt 1. und 2. oben beschrieben, nutzung der Exportmöglichkeit nach Excel mittels des Vektor Menüs wie auf folgendem Screenshot zu sehen.
 

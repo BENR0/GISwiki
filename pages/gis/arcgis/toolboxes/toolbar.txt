@@ -1,4 +1,4 @@
-===== Toolbar Überblick =====
+====== Toolbar Überblick ======
 Die Toolbar unterscheidet sich von der Toolbox im wesentlichen dadurch das entweder kein oder deutlich weniger User Input erforderlich ist sowie die Interaktion/ Steuerung mit der Benuteroberfläche von ArcGIS.
 Aktionen werden Beispielsweise einfach durch klick auf einen Button oder ein Dropdown Menü ausgeführt.
 
@@ -11,8 +11,7 @@ Falls Werkzeuge nicht das gewünschte Ergebnis bringen oder anderweitig Fehler a
 {{:gis:arcgis:toolboxes:pythonconsole.png?300|}}
 </note>
 
-
-===== Buttons/ Dropdowns =====
+====== Buttons/ Dropdowns ======
 Im folgenden sind die einzelenen Buttons und Dropdowns der Toolbar kurz erklärt.
 
 ==== Open Explorer ====

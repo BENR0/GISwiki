@@ -1,0 +1,476 @@
+[[\\FIL-01\Orga_InterneMitteilungen\IT_Leitfaden\IT-Leitfaden_PNL_RK_2012-08-14.pdf]]
+
+
+======== Einleitung ========
+Das vorliegende Dokument enthält den IT-Leitfaden der Planungsgruppe für Natur und Landschaft bzw. der RegioKonzept GmbH. 
+Der IT Leitfaden umfasst allgemeine Vorgaben, die bei der täglichen Ar¬beit zu beachten sind. Dies betrifft u. a. folgende Aspekte:
+•	Verwaltung (Speichern, Anlegen, Bearbeiten) von Dateien und Verzeichnis¬sen
+•	Vorgaben GIS
+•	Verzeichnisstruktur auf unserem Server
+•	E-Mail Verkehr
+•	Datensicherheit
+•	Telefonie
+•	Probleme mit Hard- und Software
+
+
+
+======== Server- und Verzeichnisstruktur ========
+====== Server ======
+Wir betreiben im Moment zwei Server an den Standorten Hungen und Wölfersheim die jeweils ein Sternnetzwerk mit den einzelnen Arbeitsplatz PC’s erzeugen und mit einer 2 Mbit Leitung über eine SDSL Leitung miteinander verbunden sind. Effektiv stehen auf beiden Servern jeweils ca. zwei Terabyte Speichervolumen zur Verfügung. Der Speicher steht allen logischen Laufwerken zur Verfügung und ist nicht wie vor der Umstellung Juni 2010 auf eine bestimmte Größe beschränkt.
+ 
+Der Festplattenspeicher auf beiden Servern ist in folgende Laufwerke unterteilt:
+K:	Projekte		
+L:	Projektdaten (Ex-L: Daten)
+M:	Geschäftsführung (Zugriff beschränkt)
+N:	Teamleiter (Zugriff beschränkt)	
+S:	Sicherung
+U:	Persönliche Ablage (für jeden individuell beschränkt) 150GB
+V:	Vorlagen
+An den Server in Hungen ist ein Bandlaufwerk angeschlossen, welches täglich, wöchentlich und vierteljährlich komplette Sicherungen der Daten auf Bänder speichert.
+
+==== Betriebssystem – Laufwerk C: ====
+Es gibt auf beiden Servern noch ein Laufwerk C: welches für das Betriebssystem, den VPN und andere Programme die nur den Server betreffen frei gehalten wird.
+Sowie auf jedem Arbeitsplatzrechner existieren die Ordner „Eigene Dateien“ usw. diese Ablage ist auf eigene Gefahr zu benutzen. Bitte beachtet, dass Ihr für persönliche Dokumente ein individuelles Laufwerk U: habt, welches benutzt werden sollte. Eine Ablage auf C: Eures Arbeitsplatzrechners ist nur in Ausnahmefällen sinnvoll und in der Regel zu vermeiden.
+
+==== Projektverzeichnis - Laufwerk K: ====
+Das Laufwerk K: ist als Arbeitsverzeichnis für alle neuen  Projekte vorgesehen. Die Verzeichnisstruktur ist derzeit wie folgt aufgebaut:
+_ Projektdatenblätter_PNL
+_Projektdatenblätter_RegioKonzept
+_Projektübersicht
+_Zeitplanung
+Akquise_PNL
+Akquise_Regiokonzept
+Akquise_Werbung
+Arbeiten_Projekte (alle aktuell in Bearbeitung befindlichen Projekte der PNL)
+Arbeiten_Projekte_Regiokonzept (alle aktuell in Bearbeitung befindlichen Projekte der RK)
+
+==== Daten - Laufwerk L: ====
+Auf dem Laufwerk L: wird das Laufwerk L: unseres alten Servers vorgehalten. Die „alte“ Verzeichnisstruktur muss dabei erhalten bleiben. Hierdurch wird sichergestellt, dass alte GIS Projekte (ArcView 3.1) weiterhin lesbar bleiben und nicht umgestellt werden müssen. Bitte keine Umstrukturierungen auf L: vornehmen.
+
+==== Geschäftsführung – Laufwerk M: ====
+Das Laufwerk M: ist für die Belange der Geschäftsführung. Zugriff auf dieses Laufwerk haben  Frank und Heiko sowie einzelne Bürokräfte (ggf. mit eingeschränkten Zugriffsrechten / nicht alle Verzeichnisse). Für benötigte Freigaben auf M: ist die Zustimmung eines Geschäftsführers nötig. Die Freigabe kann nur durch den ADMIN (die KoCoNet GmbH) eingerichtet werde, dazu ist ein entsprechender Eintrag auf der Fehlerliste nötig.
+
+==== B-Ebene – „Laufwerk“ N: ====
+Auf allen Profilen der B-Ebene Mitgliedern ist zusätzlich ein Netzlaufwerk N: eingerichtet, auf dass alle Mitarbeiter der B-Ebene Zugriff haben. Für eine Freigabe ist wie unter Punkt 2.1.5 eine Zustimmung eines Geschäftsführers nötig und ein Eintrag auf der Fehlerliste.
+
+==== Sicherung – Laufwerk S: ====
+Alle abgeschlossenen Projekte werden von den Verantwortlichen Teamleitern in Absprache mit einem IT Mitarbeiter in dieses Laufwerk verschoben. Es können alle alten Daten eingesehen werden, Änderungen sollen und können nicht durchgeführt werden. Projekte die Älter als 2010 sind, befinden sich unter dem Laufwerk L:.
+
+==== Persönliche Ablage – Laufwerk U: ====
+Jeder Mitarbeiter besitzt sein persönliches Laufwerk U: auf dem 150GB frei sind um persönliche Dokumente o.ä. zu speichern. Hier hat ausschließlich nur der jeweilige Mitarbeiter Zugriff. Das Laufwerk U: wird jeden Tag auf das Backup Band gesichert, das heißt auch verlorene Dokumente können nachverfolgt/ wiederhergestellt werden. Bitte benutzt nicht das Verzeichnis C: auf Eurem eigenen Computer. Daten die hier abgelegt werden können eingesehen werden, gehen nicht mit in die Sicherung ein und werden auch nicht wiederhergestelt bzw. gehen eventuell bei Arbeiten am Computer verloren!
+
+==== Vorlagen – Laufwerk V: ====
+Das Laufwerk V: beinhaltet nur Vorlagen für die Arbeit mit Texten, GIS und CAD sowie Bürovorlagen. Eine Struktur ist gerade im Entstehen (Stand 06/2011). Bis zur Vervollständigung dieses Laufwerkes findet Ihr Bürovorlagen, Interne Mitteilungen, Briefköpfe usw. auf L:\Vorlagen oder schon unter V:.
+Der Ordner V:\Arbeiten_Scannen dient nur als temporäre Ablage für mit dem Multifuktionsgerät eingescannte Dokumente; dort vom Multifunktionsgerät abgespeicherte Dateien sollen umbenannt und an die richtigen Stellen in den jeweiligen Projektordnern verschoben werden; d.h. der Ordner Arbeiten_Scannen sollte bis auf die aktuellen Scans leer sein.
+
+==== Datenleitung zwischen den Standorten ====
+Wie im Schaubild dargestellt werden beide Standorte mit einer SDSL Leitung verbunden (Stand 2011). Durch diese Leitung werden zum einen alle Daten die auf den Laufwerken liegen abgeglichen. Also alle Änderungen die auf K:/L:/V: usw. gemacht werden auf beiden Servern gemacht. Eine Änderung auf dem Server in WH wird nach einigen Minuten optimalerweise auch auf dem Server in HU gemacht. Die Geschwindigkeit ist abhängig von der Leitung und kann nicht vorhergesagt werden.
+Ungefähre Maßzahl: 50 MB brauchen 7,5 Minuten von einem zum anderen Standort, 10 MB nur eine Minute. 
+Wenn viele Daten geändert werden, entsteht eine Verzögerung (ein „Stau“) der das System auch zum Ausfall bringen kann. Also beachtet bitte dringendst dass Datenmengen über 150 MB nur in Absprache mit einem IT-Mitarbeiter auf die Laufwerke gespeichert werden können. Die normale Arbeit mit Text oder Exceldateien, GIS shapes usw. dürfte keine Probleme machen. Aber Datenlieferungen auf CD oder USB Stick, über den ftp oder ähnliches die 150 MB übersteigen müssen abgesprochen werden.
+Zum anderen greifen alle Mitarbeiter aus WH auf Outlook, das Internet und S-Control auf dem Server in Hungen zu. Das heißt diese Daten müssen ebenfalls übermittelt werden.
+Zusätzlich telefonieren wir intern über die Kurzwahlrufnummern per Internet und benutzten dabei ebenfalls diese Leitung.
+
+====== Verzeichnisstruktur und Projektbenennung ======
+==== Verzeichnisstruktur für Projekte ====
+Es werden alle zu einem Projekt gehörenden Dateien (GIS, Texte, Tabel¬len etc.) in einem einzigen Projektverzeichnis zusammengefasst und dort in Un¬terverzeichnissen abgelegt.
+Hierfür sind zwei Verzeichnisse vorhanden:
+K:\Arbeiten_Projekte
+K:\Arbeiten_Projekte_Regiokonzept
+Die weitere Sortierungsstruktur in den og Ordnern ist ab der KW27 2011 ähnlich der im Outlook noch mal in Überordner sortiert. Bitte hier keine Änderungen an der Struktur vornehmen.
+Fertige Projekte sollten nach Abschluss in das Laufwerk S: verschoben werden. Bisher ist eine weitere Sicherung von dort z.B. auf ein externes Medium aus verschiedenen Gründen nicht vorgesehen. 
+Im Ordner K:\Akquise sollen folgende Daten abgelegt werden: 	
+­ Daten zur Erstellung von PQs (K:\Akquise\Arbeiten_PQ – Ordner ersetzt den bisherigen Ordner L:\Arbeiten_PQ), die Daten von L: werden in diesen Ordner gezogen, der Ordner unter L: gelöscht, Zuarbeiten zu PQs werden ebenfalls in den jeweiligen PQ-Unterordnern unter Grundlagen gespeichert 
+­Vorträge, die nicht direkt zu einem Projekt gehören, sondern der Bürovorstellung/PR-Arbeit etc. dienen, z.B. Franks Vortrag auf Vilm (K:\Akquise\Vorträge)
+­Ggf. kommen hier noch weitere Ordner hinzu
+Die bisherigen Verzeichnisse auf L:
+\arbeiten_texte
+\arbeiten_gis
+\arbeiten_tabellen
+werden für neue Projekte nicht mehr genutzt und sukzessive geleert. D.h. noch in Bearbeitung befindliche Projekte können in die neue Struktur überführt werden bzw. im bisherigen Verzeichnis fertig gestellt werden. Fertige Projekte aus L: werden anschließend unter L:\fertige_projekte abgelegt.
+
+==== Musterprojektordner ====
+Im Verzeichnis K:\arbeiten_projekte befindet sich ein Musterprojektordner („0_Musterordner“). Dieser ist beim Beginn eines neuen Projektes als Vorlage zu verwenden:
+Den Musterordner markieren und mit <Bearbeiten> <Kopieren> und <Bearbei¬ten> <Einfügen> in das Verzeichnis K:\arbeiten_projekte kopieren. Er erscheint dort als „Kopie von 0_Musterordner“ und kann anschließend umbenannt werden. Zur Benennung der Projekte siehe nächsten Abschnitt.
+Der Musterordner hat folgenden Aufbau (Inhalte der einzelnen Unterordner s. Kap. 2.3.5): 
+Musterprojekt
+K:\arbeiten_projekte
+	\0_Musterprojekt
+			\00_Organisation_Adressen	
+			\01_Schriftverkehr		
+			\02_Besprechungen	
+			\03_Texte	
+				\01_Stellungnahmen
+				\ArtSchP
+				\B-Plan
+				\EAP
+				\FFH-VU
+				\F-Plan
+				\GDE
+				\LBP
+				\UVU
+			\04_Tabellen	
+			\05_GIS	
+				\av_daten
+					\00_Legenden
+					\01_Vorhaben
+					\02_Abgrenzungen
+					\03_Schutzgebiete
+					\04_Bestandsdaten
+					\05_Planung
+				\av_projekte
+				\plotfiles
+				\tabellen
+				\z_archiv
+				\z_temp
+			\06_CAD	
+				\plotfiles
+				\z_archiv
+				\z_temp
+			\07_Kartengrundlagen	
+				\ALK
+				\ALKIS
+				\Orthophotos
+				\TK
+			\08_Bilder	
+			\09_Vortraege	
+			\10_Datenbanken	
+			\11_Datengrundlagen	
+			\12_Datenweitergabe\	
+			\13_Bauausfuehrung	
+Die nicht benötigten Ordner sind nach der Umbenennung oder im Projektverlauf zu löschen bzw. gegebenenfalls wieder aus dem Musterordner hinzuzufügen.
+
+==== Projektnamen ====
+Der Projektname ist eindeutig zu wählen und sollte – entgegen der bisherigen Praxis – möglichst keine Bezeichnung des Planungstyps (LBP / FFH-VU etc.) mehr enthalten. Die Benennung der Ordner sollte sich nach unten stehenden Vorgaben richten. Bitte bei ähnlichen Projekten auf einheitliche Benennung achten!
+Alle Teilprojekte (LBP, FFH-VU, ArtSchP usw.) werden dabei im Projekt zusam¬mengefasst. Beispiel: Statt „LBP_B7_OU_Calden“ mit ggf. später nachträglich beauftragter Artenschutzprüfung („ArtSchP_B7“), FFH-VU usw. heißt das Projekt nun nur noch „Str_B7_OU_Calden“. Alle Teilprojekte werden darunter zusammenge¬fasst.
+Kürzel	Planungstyp	Beispiel
+Biomon	Biomonitoring  	Biomon_Utphe
+BLP	Bauleitplanung (auch Flächennutzungspläne)	BLP_Hungen_Im_Grasssee
+BLP_F_Plan_Hungen
+Energie	Hochspannungsltg., Windenergieanlagen, Kraftwerke	Energie_Ltg_Altenstadt_Glauberg
+Energie_ Ltg_Lemfoerde_bl4196
+Energie_WEA_Kaiseresch
+Energie_ Kraftwerk_Mainz
+Flughafen	Flughafenplanung	Flughafen_Kassel
+GDE	Grunddatenerhebung	GDE_FFH_Kellerwald
+GDE_VSG_Rheinauen_Biblis
+HB	Hessische Biotopkartierung	HB_5522_Freiensteinau
+L_Plan	Landschaftsplan	L_Plan_Lich
+NGP	Naturschutzgroßprojekt	NGP_Vogelsberg
+Objekt	Objektplanung2	Objekt_Hausgarten_Mueller
+Oekokonto	Ökokonto	Oekokonto_Hof_Grass
+Radweg	Radwegeplanung	Radweg_Hirschhorn
+Renat	Renaturierung1	Renat_Nidder
+Str	Straßenplanungen	Str_B7_OU_Calden Str_L3362_Dillenburg_Nanzenbach
+sonst_Fachpl	Sonstige Fachplanungen (i.d.R. Kleinprojekte, die sich keiner der anderen Kategorien zuordnen lassen)	sonst_Fachpl_Klaeranlage_Hungen
+sonst_Fachpl_Erlebnisgebiet_Laubacher_Wald
+		
+		
+
+Folgende Regeln sind bei der Namensgebung zu beachten (sonst verweigert ArcGIS u. U. die Arbeit):
+•	In Projektnamen keine Leerzeichen, Bindestriche (-),   Anführungszeichen („ “) oder sonstige Sonderzeichen verwenden, Unterstriche (_) können und sollen verwendet werden 
+•	Umlaute und ß sollten ebenfalls nicht benutzt werden (stattdessen ae, ue, oe und ss verwenden)   
+
+==== Dateinamen  ====
+Grundsätzlich sind Dateinamen eindeutig zu wählen und mit Versionsnummer bzw. Datum zu versehen (Zusätze wie Bilanz_neu etc. vermeiden, neu ist immer relativ). In einigen Verzeichnissen sind bereits leere Musterda¬teien vorhanden, die die korrekte Benennung vorgeben. Die Datei- und Ordnernamen sollen möglichst kurz gewählt werden (Zusatzinfos nicht alle in die Namen, sondern ggf. in readme-Dateien schreiben), da beim Kopieren von Ordnern Probleme bei zu langen Pfadnamen auftreten (Dateien können dann u.U. nicht gelesen und kopiert werden. Auch bei der Datensicherung durch das Backup können bei zu langen Pfadnamen Probleme entstehen.
+Aus Gründen der Sortierbarkeit (im Explorer) und der Lesbarkeit ist dabei grund¬sätzlich folgendes Datumsformat zu benutzen: _JJJJ-MM-TT
+Das Datum ist immer dort in den Datei- oder Verzeichnisnamen einzufügen, wenn die Datei an dem betreffenden Tag abgegeben wurde oder uns zugegangen ist (Briefe / Faxe / Plotdateien / PDF bzw. eingegangene Grundlagendaten – s.Kap. 2.3.5)
+Bei Texten, GIS oder CAD, die täglich weiter bearbeitet werden sind stattdessen Versionsnummern anzuhängen. Dabei sind die Versionsnummern von Anfang an zweistellig anzulegen (_01 etc.), damit die richtige Sortierreihenfolge auch ab Version _10 gewährleistet ist.
+Durch die Verbindung unserer Standorte mit der SDSL Leitung ist es unerlässlich Versionsnummern und/oder Benennungen mit den Namen der Bearbeiter vorzunehmen. Im Besonderen ist das wichtig wenn Mitarbeiter von beiden Standorten aus am gleichen Text/ im gleichen Projekt arbeiten. Es kann nicht mit Sicherheit davon ausgegangen werden, dass die Spiegelung der Daten minütlich/stündlich/über Nacht funktioniert. So kann es passieren, dass die jeweils zuletzt abgespeicherte Version eines Dokumentes das ältere Dokument überschreibt. Hierbei kommt es im schlimmsten Fall zum Datenverlust der Änderungen im älteren Dokument. Dateien kopieren und mit neuer Versionsnummer/ Namen abspeichern dann kann dies nicht passieren.
+
+==== Inhalte der Ordner innerhalb eines Projektes ====
+In jedem Projekt-Ordner liegt eine Vorlage für das Projektdatenblatt, das vom jeweiligen Haupbearbeiter des Projektes zu führen und aktuell zu halten ist.
+
+\00_Organisation_Adressen:	Ansprechpartner, Adressen der Projektbeteiligten, Ordnerrückenvorlagen, CD-Beschriftungen, …
+\01_Schriftverkehr:		Briefe/ Faxe/ Mails (nicht die Anhänge dazu – diese unter Datengrundlagen/-weitergabe), dabei folgende Dateibenennung (Datum als JJJJ-MM-TT):
+wohin_br_Datum_Betreff.doc
+wohin_fax_Datum_Betreff.doc
+wohin_mail_Datum_Betreff.doc
+\02_Besprechungen:	Protokolle und Gesprächsnotizen sowie dazugehörige Unterlagen, die für die Termine vorbereitet wurden, pro Termin ein Unterordner mit Datum und ggf. Beteiligten anlegen
+\03_Texte	Textteile der Projekte, dabei sollen nur die jeweils benötigten Unterordner im Projekt bleiben, die anderen Musterordner (s. Kap. 2.3.2) werden gelöscht (z.B. werden F-Plan und B-Plan i.d.R. nur in Bauleitplanungsprojekten benötigt);
+die aktuellste Text-Version sollte in der obersten Ebene des jeweiligen UO liegen
+ältere Versionen werden entweder gelöscht oder in den UO z_archiv verschoben (s. Kap. 2.3.7), hier sollen auch UO für verschiedene Abgabestände angelegt werden, die zu dokumentieren sind;
+mit Versionsnr. arbeiten, um eindeutig die aktuellste Version zu finden
+UO Anhänge für Text- und Tabellenanhänge
+\04_Tabellen	Tabellen für Auswertungen (Bilanzierungen, Kostenschätzungen, Statistiken, sonst. Berechnungen); 
+hier keine Tabellen, die für die Legendenerstellung im GIS benötigt werden (s. GIS), auch keine Tabellen, die Textanhänge sind  - die unter \03_Texte\...\Anhänge
+\05_GIS	
+	\av_daten	Alle shape-Dateien und ggf. dxf-Dateien des Vorhabens
+		\00_Legenden	Legendendateien (.lyr) und Beschriftungen
+		\01_Vorhaben	Technische Planung (Trassenverlauf, Maststandorte, …d.h. in der Regel externe Daten)
+		\02_Abgrenzungen	Untersuchungsräume, Blattschnitte (z.B. blattschnitt_A0_15000.shp), Verwaltungsgrenzen (Kreise, Gemeinden,..)
+		\03_Schutzgebiete	Schutzgebietsdateien
+		\04_Bestandsdaten	Biotoptypen, Flora/Fauna – d.h. Kartierungen
+		\05_Planung
+\06_Verschneidungen	Maßnahmen, Konfliktbereiche/-punkte, Wirkräume
+Verschneidungsshapes mit denen man tatsächlich bilanziert (Zwischenschritte im z_temp-Ordner – s.u.)
+	\av_projekte	Alle mxd-Dateien (ArcMap-Projektdateien), mxt-Dateien (ArcMap-Vorlagen) in UO Vorlagen, Arbeitskarten in eigenen UO, so dass in oberster Ebene nur die Projekte der Karten liegen, die im Gutachten als Karten enthalten sind; bei Benennung auch mit Versionsnr. arbeiten; Abgabestände von Projekten in eigene UO mit Datum der Abgabe (Abgabe_jjjj-mm-tt)
+	\plotfiles	Druckdateien der Karten (i.d.R. pdf); Abgabestände in eindeutige UO mit Datum der Abgabe (Abgabe_jjjj-mm-tt) speichern; UO für Arbeitskarten 
+	\tabellen	Tabellen, die für Erstellen der Legenden oder zum Erzeugen von Punktshapes (z.B. Tab. mit Fundpunkten mit Rechts- und Hochwerten) benötigt werden; 
+Auswertungstabellen sollen unter \04_Tabellen (s.o.)
+	\z_archiv	alte Stände von Dateien, die zur Dokumentation aufgehoben werden sollen, aber nicht mehr in mxd-Projekten eingebunden sind und daher aus dem Ordner av_daten zur besseren Übersicht raus können
+	\z_temp	Temporäre Dateien für Verschneidungen, Datenprüfungen ,… Ordner sollte nach Projektende gelöscht werden
+\06_CAD	CAD-Projekte und –Dateien, sowie die Druckdateien aus dem CAD
+	\plotfiles	s. GIS
+	\z_archiv	s. GIS
+	\z_temp	s. GIS
+\07_Kartengrundlagen	Kartengrundlagen und dazugehörige Rasterkataloge, ggf. neue UO für weitere Grundlagen (eingescannte und/oder georefenzierte tif-Dateien von Geländekarten, Forstgrundkarten etc.); 
+auf die Dateien hier sollen die GIS und CAD-Projekte zugreifen, wann und woher die Daten stammen sollte aus dem Ordner 11_Datengrundlagen zu erschließen sein – d.h. dort liegen die Dateien ggf. nocheinmal im Original oder bei großen Dateien wie Orthophotos eine readme-Datei, dass die Daten  in 07_Kartengrundlagen verschoben wurden (s.u.);
+	\ALK	
+	\ALKIS	
+	\Orthophotos	
+	\TK	
+\08_Bilder	Fotos 
+\09_Vortraege	Powerpoint-Vorträge und die dazugehörigen Dateien; 
+Benennung: Datum(JJJJ-MM-TT)_Titel_xx.ppt, mit Versionsnr. arbeiten (_xx)
+\10_Datenbanken	Datenbankdateien und die dazugehörigen Referenzdateien;
+Tabellen der Abfragen sollen unter \04_Tabellen
+\11_Datengrundlagen	Ablage für alle Dateneingänge (e-mail-Anhänge, CD-Inhalte,..) in jeweils UO (Benennung: woher_Datum(JJJJ-MM-TT)_Erläuterung); 
+hier bleiben die Daten im Original zur Dokumentation liegen und werden zum Weiterarbeiten in die jeweiligen Ordner kopiert; bei großen Dateien, die im Projekt nicht verändert werden (z.B. Orthophotos), sollte der Eingangsordner angelegt werden und eine readme-Datei enthalten, wo die Daten liegen
+\12_Datenweitergabe	Ablage für alle Datenausgänge (Abgabedateien (End- und Zwischenstände), e-mail-Anhänge, CD-Inhalte,..) in jeweils UO (Benennung: Datum(JJJJ-MM-TT)_wohin_Erläuterung); wichtig zur Dokumentation, wer was von uns erhalten hat!
+\13_Bauausfuehrung	Wird bei Projekten benötigt, bei denen wir bei der Umsetzung beteiligt sind – eigene UO für Ausschreibung, Bauleitung, Ökologische Baubegleitung
+	
+Bei den Ordnern 11_Datengrundlagen und 12_Datenweitergabe empfiehlt es sich bei größeren Projekten zur besseren Übersichtlichkeit Unterordner für häufige Datenlieferanten bzw. –empfänger (ERM, RWE, ASV, Birgit, RP,…) anzulegen
+
+Speziell für GIS: unbedingt von vorherein mit relativen Pfaden bei den mxd-Projekten arbeiten (kann und sollte bei ArcGIS standardmäßig eingestellt werden: Datei>Dokumenteigenschaften>Datenquellen-Optionen), damit auch beim Verschieben der Ordner unter Fertige_Projekte die GIS-Projekte noch funktionieren.
+
+==== Datenweitergabe ====
+Alle Daten die von uns aus an externe Adressen per E-Mail oder Post versendet werden, werden in diesem Ordner abgelegt.
+Für die Abgabedateien sollen aus den word/excel/GIS-Dateien zunächst pdf-Dateien erstellt werden und diese dann gedruckt werden, um sicher zu stellen, dass die Abgabeversionen von jedem Rechner aus gedruckt werden können und genauso aussehen (Formatierungen).
+Dem Auftraggeber werden, sofern er nicht ausdrücklich auch die word-Dateien etc. anfordert, die pdf-Dateien zur Verfügung gestellt. Dies gewährleistet, dass bei ihm die Dateien genauso aussehen, wie wir sie formatiert haben.
+Beim Exportieren von Karten in PDF/JPEG-Dateien darauf achten, dass folgende Optionen angehakt sind (ansonsten werden Punktsymbole/ Schraffuren an Rechnern ohne GIS durch beliebige Zeichen ersetzt, mit den Haken werden sie als Graphik betrachtet und es gibt bei der Weitergabe keine Probleme): 
+
+==== Aufräumen ====
+Wenn Projekte bzw. auch einzelne Projektphasen abgeschlossen wurden, bitte trotz allem die Projektordner aufräumen (zuständig dafür sind die jeweiligen Bearbeiter der Projekte) und dabei insbesondere folgende Punkte beachten:
+	Abgabeversionen eindeutig ablegen, d.h. 
+­	Letzter Stand der Textdateien liegt unter 03_Texte im jeweiligen Unterordner (LBP/ FFH-VU/..) in der obersten Ebene (als doc und pdf), wurden mehrere Stände abgegeben, liegen die älteren in Unterordner unter z_Archiv (z.B. 03_Texte\ArtSchP\z_Archiv\Abgabe_JJJJ-MM-TT)
+­	Nur aktuellen GIS-Projekte der Abgabekarten liegen in oberster Ebene unter 05_GIS\av_projekte; die Projekte müssen mit relativen Pfaden gespeichert sein und Logos sind im Stempel als Teil der Karte zu speichern (sonst funktionieren die Projekte nach dem Verschieben unter Fertige_Projekte nicht mehr); 
+wurden mehere Stände abgegeben, sind UO für die älteren Abgaben anzulegen (Abgabe_JJJJ-MM-TT); 
+Arbeitskarten oder Vorversionen der Projekte liegen unter av_projekte\Arbeitskarten oder werden ggf. ganz gelöscht; 
+­	Pdf-Dateien der Abgabekarten liegen in oberster Ebene unter 05_GIS\plotfiles; 
+wurden mehrere Stände abgegeben, sind UO für die älteren Abgaben anzulegen (Abgabe_JJJJ-MM-TT); 
+Arbeitskarten oder Vorversionen der Karten liegen unter plotfiles\Arbeitskarten oder werden ggf. ganz gelöscht
+­		Abgabeversionen von Texten und Karten liegen also in den jeweiligen Unterordnern und zusätzlich unter Datenweitergabe, damit klar ist, wer welche Dateien von uns wann bekommen hat
+	Arbeitsversionen bei Texten/ Karten: werden die Zwischenstände nicht zur Dokumentation benötigt, sind sie außer den letzten 3 Versionen zu löschen, um das Aufräumen des Servers zu erleichtern und unnötigen Datenmüll zu ver¬hindern
+	Innerhalb der Projektordner nicht benötigte (leere) Unterordner und Musterdateien bitte wegen besserer Übersichtlichkeit löschen ohne die Nummerierung der Ordner zu verändern (z.B. 06_CAD bei LBPs oder 10_Datenbanken bei B-Plänen, unter 03_Texte nur für das Projekt relevante Ordner behalten). Bei Bedarf können die Ordner aus dem Musterordner wieder erstellt werden.
+
+Das \z_temp-Verzeichnis ist nur für Dateien gedacht, die nach Beendigung des Projektes bedenkenlos gelöscht werden können. Bitte auch dieses Verzeichnis von Zeit zu Zeit aufräumen bzw. nach Projektende leeren! Zuständig ist hier jedoch der jeweilige Sachbearbeiter des Projektes!
+Sind die Projektordner so vorbereitet, sollen sie nach Abschluss des Projektes unter K:\Fertige_Projekte bzw. Arbeiten_Projekte_Regiokonzept verschoben werden; der Projektname bleibt dabei erhalten und erhält als Zusatz die Jahreszahl der Abgabe (Projektname_JJJJ)
+
+==== Sicherheit ====
+Das gesamte Netzwerk und damit auch jeder einzelne Arbeitsplatzrechner ist gegenüber dem Internet mit einer aktuellen Virensoftware geschützt. Diese wird regelmäßig automatisch upgedatet. 
+Jeder Mitarbeiter hat Administrationsrechte auf seinem eigenen PC. Das heißt Ihr seid berechtigt auch Programme runterzuladen und auszuführen. Bitte besucht nur Internetseiten denen Ihr vertraut und ladet nur runter was seriösen Hintergrund hat. Falls Ihr hier Zweifel habt sprecht lieber einen IT-Mitarbeiter an. Das gilt auch für Meldungen zur Programminstallation, Registration o.ä. die auf Eurem Bildschirm auftauchen.
+Fast jeder PC ist weiterhin mit Kartenslots und CD-Rom Laufwerken sowie USB Schnittstellen versehen. Alle aufgespielten Daten die über diese Schnittstellen in das System gelangen, werden ebenfalls auf Viren usw. geprüft. Aber bitte beachtet auch hier nur vertrauenswürdige Datenquellen bedenkenlos zu nutzen. 
+ 
+======== Hinweise GIS-Bearbeitung ========
+Bei den mxd-Projekten unbedingt von vornherein mit relativen Pfaden arbeiten (kann und sollte bei ArcGIS standardmäßig eingestellt werden: Datei>Dokumenteigenschaften>Datenquellen-Optionen), damit auch beim Verschieben der Ordner unter Fertige_Projekte die GIS-Projekte noch funktionieren.
+
+Es gibt unter V:\Vorlagen_GIS\0_layout_vorlagen inzwischen zahlreiche Vorlagen, die die Arbeit im GIS vereinfachen und vereinheitlichen sollen:
+	Mxt-Dateien als Layoutvorlage für die verschiedenen Blattgrößen mit PNL-Stempel, richtig eingestellten Rändern, Nordpfeil, Maßstab etc.
+	Legendeneinstellungen.doc: Standardeinstellungen für automatische Legenden (Schriftgröße, Abstände,…)
+	Schriften_PlanzV: enthält Schriftdateien der Planzeichenverordnung, falls sie an einzelnen Rechnern noch nicht installiert sind; sind für einige Symbole im Schutzgebietsstyle nötig (s.u.); müssen ggf. unter C:\WINDOWS\Fonts stehen bzw. dorthin kopiert werden
+	Skripte_Berechnungen: Skripte für die Berechnungsfunktion in den Attributtabellen für z.B. Rechts-/Hochwerte von Punkten, Flächengröße; im Unterordner Easy_Calculate noch zahlreiche hilfreiche Skripte mehr – Erklärungen dazu in der Datei Easy_Calculate\ec50 \EasyCalculate.htm
+	Legenden: 
+•	Tabellen zum Anhängen für schnelleres Erstellen von Legenden, z.B.
+­	Büro-Biotoptypenschlüssel (tbl_biotoptypen.dbf, tbl_biocode_pkt.dbf)
+­	Tabelle für KV-Codes mit Wertpunkten (tbl_KVCode_WP_GIS.dbf)
+­	Biotoptypenschlüssel für Niedersachsen (tbl_biotoptypen_ni.dbf)
+­	Habitattypen für GDEs der Vogelschutzgebiete (vsg_Habitattypen.dbf)
+
+•	Layer-Dateien für Farbeinstellung bei TKs
+­	TK_gew-fläche.lyr, TK_gew-kontur.lyr, TK_situation.lyr, TK_wald.lyr
+­	Lyr-Dateien für die TK-Layer nach neuer Struktur (z.B. für die Hungener TK: im Unterordner TK25_LegendenDateien_lyr)
+	Styles: *.style-Dateien zum Hinzufügen in ArcGIS, hier sind die entsprechenden Symbole abgelegt;
+­	Schutzgebiete.style: Büro-Standard für die Farb- und Symbolgebung bei Schutzgebieten
+­	LBP_Realnutzung_2.style: Grundfarben für Biotoptypen bei LBP-Bestandskarten, Farbpalette auch zum Ausdrucken als pdf unter Farbtabelle\ Farbtabelle_LBP.pdf
+­	ColorBrewer.style: Farbpalette mit gut aufeinander abgestimmten Farben, die sich deutlich im Druck unterscheiden lassen (Farbverläufe als Colorramps und einzeln gespeicherte Farben dieser Verläufe), Farbpalette auch zum Ausdrucken als pdf unter Farbtabelle\farbtabelle_ColorBrewer.pdf
+­	Biotoptypen_PEPL_KW.style: zahlreiche Symbole für Biotoptypen als Grundlage für Legenden mit einem Symbol pro Biotoptyp
+
+­	Weitere Styles für Punktsymbole, Schraffuren, die sich gut für Bestands-/Maßnahmen-/Gefährdungskarten etc. eignen, sind in Arbeit
+	Symbole: Übersicht der brauchbaren Symbole in den ESRI-Schriften als pdf-Dateien (_Übersicht_Symbole_TeilI.pdf und _Übersicht_Symbole_TeilII.pdf)
+
+Beim Exportieren von Karten in PDF/JPEG-Dateien darauf achten, dass folgende Optionen angehakt sind (ansonsten werden Punktsymbole/ Schraffuren an Rechnern ohne GIS durch beliebige Zeichen ersetzt, mit den Haken werden sie als Graphik betrachtet und es gibt bei der Weitergabe keine Probleme): 
+
+====== Geheimhaltungserklärung ======
+Werden digitale Datengrundlagen die wir für ein bestimmtes Projekt zur Verfügung bekommen haben oder selbst erstellte shape Dateien an Dritte (z.b. Subunternehmer) weitergegeben muss von diesen eine Geheimhaltungserklärung eingefordert werden. Eine entsprechende Vorlage befindet sich auf V: Vorlagen_GIS.
+Eine gute Metadatendokumentation und auch der Verweis auf die Quelle in Attributtabelle und in Metadaten ist unerlässlich.
+3.2	Standard Einstellungen
+Um einen guten Standard zu bewahren werden immer mehr Standard shapes unter V:\Vorlagen_GIS entstehen. Diese sind zu verwenden und auszufüllen. Ebenso gibt es Standard Vorlagen für Layouts und styles.
+ 
+======== E-Mail ========
+====== Allgemeines Postfach ======
+Zurzeit (Stand 06/2011) verfügt PNL und RK über einen generellen E-Mail-Account:
+mail@pnl-hungen.de
+mail@regiokonzept-gmbh.de
+Über diese Accounts wird nur noch der Mailversand geregelt der nicht an die persönlichen Mailadressen geht. Jeder hat über sein Outlook Zugriff auf diese beiden Postfächer über die nur noch E-Mails empfangen aber keine mehr gesendet werden könne. Ab und an sollten diese Postfächer kontrolliert werden und E-Mails von dort weggeräumt werden. Das übernehmen im Regelfall die Aushilfen. 
+Vor der Umstellung 2010 wurde der gesamte Mailverkehr aller Mitarbeiter über diese beiden Accounts abgewickelt. 
+Wer E-Mails sucht die älter als Juli 2010 sind kann daher auf unsere alten „E-Mail Rechner“ zugreifen:
+V:\ Verknüpfung mit vncviewer.exe (doppelklicken)
+VNC Server: hu-mail (E-Mail Rechner in Hungen)
+		Wh-mail (E-Mail Rechner in Wölfersheim)
+Connect (klicken)
+Der jeweilige Rechner muss angeschlatet sein und die Anmeldung mit dem Passwort „Pnl1234“ muss (z.b. von einem Mitarbeiter vor Ort) durchgeführt worden sein.
+Dann besteht Zugriff auf die E-Mail Programme Thunderbrid und Post ME. Anmeldepasswort hier ist jeweils für den PNL Account „montana“.
+
+====== Persönliches Postfach  ======
+Jeder Mitarbeiter hat außerdem ein Eigenes Postfach und zwei E-Mail Adressen nach dem Muster vorname.nachname@pnl-hungen.de bzw. vorname.nachname@regiokonzept-gmbh.de. Beide Postfächer werden über das Outlook vom Server abgerufen, jeder Mitarbeiter hat eine Standard Adresse die beim öffnen von Outlook automatisch eingestellt ist. Wenn er über die jeweils andere Adresse eine E-Mail versenden möchte muss er das unter „Signatur“ beim erstellen der E-Mail einstellen.
+Im Kopf jeder E-Mail Nachricht zeigt Outlook die Felder „Gesendet“ sowie „An“. Im Feld „An“ steht euer Name in der Form <Nachname, Vorname> wenn die Mail an Euer Standard Adresse gesendet wurde. Falls Sie an der jeweils anderen Adresse eingegangen ist, steht diese Adresse ausgeschrieben im Feld „An“.
+Empfangen und gesendet werden können E-Mails mit bis zu 20MB, bitte beachtet hierbei, dass nicht alle Empfänger so große E-Mails zugestellt bekommen. Bitte darauf achten, dass keine Fehlermeldung erscheint falls eine E-Mail nicht versendet wurde. 
+Bei wichtigen E-Mails, die z.B. Abgabedaten enthalten, sollte man nach eigener Abwägung vielleicht eine Lesebestätigung oder eine Übermittlungsbestätigung anfordern.  Beim erstellen einer E-Mail kann man unter dem Reiter „Optionen“ einen Haken bei <Übermittlungsbestätigung anfordern> oder <Lesebestätigung anfordern> setzten. Bei ersterem bekommt der Absender eine Rückmeldung dass die E-Mail im Postfach eingegangen ist, bei letzterem muss der Empfänger bewusst bestätigen, dass er die E-Mail geöffnet hat. Das ist meist lästig für den Empfänger und sollte nur im Einzelfall angewandt werden. Von der Übermittlungsbestätigung hingegen bekommt der Empfänger nichts mit.
+Wer größere Datenmengen übermitteln muss, hat die Möglichkeit bis zu 3GB über eines unserer ftp-Server zu übersenden.
+V:\Arbeiten_Computer_Netzwerk\01_ftp-server
+Bitte wendet Euch hierzu an einen IT-Mitarbeiter da hier auch für jede Übermittlung das Zugangskennwort geändert werden muss.
+Vertreterregelung und Abwesenheit 
+Um zu gewährleisten, dass keine wichtige E-Mail verloren geht werden alle eingehenden E-Mails in Kopie an die GF weitergeleitet. Um unser Outlook nutzen zu können muss man hier eine Einverständniserklärung unterschreiben. Bitte wendet Euch an einen IT-Mitarbeiter falls Ihr das noch nicht gemacht habt.
+Des weiteren sollte jeder einen oder mehrere Vertreter benennen, denen er sein Postfach und die Ordner Posteingang und Gesendet (je nach Wunsch auch mehr) freigibt (siehe IM_2010-08-18_Vertreterregelung_Diverses_PNL_RK und IM_2010-09-20_Freigabebereichtigungen_PNL_RK). Dies ist mit dem jeweiligen Teamleiter abzusprechen. 
+Ab einer Abwesenheit von 3 Tagen ist zusätzlich noch der Abwesenheitsassistent einzustellen. Im Outlook Fenster auf den Button „Extras“ klicken dann auf „Abwesenheits-Assistenten“. ). Diese Abwesenheit interessiert nur Externe, die eine E-Mail an uns schicken und sollte daher lediglich für Nachrichten „außerhalb meiner Organisation“ erstellt werden. Für „innerhalb meiner Organisation“ bitte keine Einstellungen vornehmen.
+Beispieltext:
+Sehr geehrte Damen und Herren,
+
+vielen Dank für Ihre E-Mail. Ich bin ab dem 30.04.2011 wieder für Sie erreichbar. In der Zwischenzeit beantworten meine Kollegen (06402-51254-0) gerne Ihre Fragen.
+
+Mit freundlichen Grüßen,
+
+====== E-Mail Vorgaben ======
+==== Maileingang ====
+Eine an Euch als Hauptadressat adressierte eingehende E-Mail sollte von Euch in das Ordnerverzeichnis unter Outlook einsortiert werden. Die Anhänge werden auf das Laufwerk K: wegsortiert siehe Anmerkungen weiter vorne in diesem Leitfaden. Ein Ausdruck der E-Mail kommt in den Projektordner oder zu demjenigen Mitarbeiter, der den Projektordner führt.
+Interne E-Mails müssen nicht ausgedruckt werden.
+E-Mails die in CC/BCC ankommen sind nur zur Information und werden NICHT abgelegt.
+
+==== Mailausgang  ====
+Von Euch versendete E-Mails werden ebenfalls in die Ordnerstruktur unter Outlook einsortiert. Anhänge werden vom Laufwerk K: hochgeladen. Ein Ausdruck der E-Mail kommt in den Projektordner oder zu demjenigen Mitarbeiter der den Projektordner führt.
+Interne E-Mails müssen nicht ausgedruckt werden.
+E-Mails die in CC/BCC ankommen sind nur zur Information und werden NICHT abgelegt.
+
+==== Umgang mit E-Mails für die GF ====
+Ein Hinweis zum Umgang mit eingehenden und abgehenden E-Mails welche die Geschäftsführer betreffen: Alle E-Mails (abgehende und eingehende), die für Heiko oder Frank wichtig sind, sollten in CC oder BCC an Heiko oder Frank weitergeleitet werden. Beide werden nicht mehr regelmäßig Ihre „Kopie“-Postfächer kontrollieren sondern sich darauf verlassen, dass wichtige Korrespondenz weitergeleitet wird. Noch mal zur Erinnerung, in den „Kopie“-Postfächern kommen alle eingehenden E-Mails an, auch solche die an Eure persönliche E-Mail Adresse geschickt wurden. Die abgehenden E-Mails werden hier nicht erfasst. 
+Dies betrifft besonders auch E-Mails die in Postfächern ankommen, die von einer anderen Person in Vertretung überwacht werden.
+
+====== WEB-Access Zugang zum Outlook von einem externen Rechner aus ======
+V:\Arbeiten_Computer_Netzwerk\16_Outlook\OWA Anleitung.doc
+Falls Ihr von einem Rechner der ans Internet angeschlossen ist, jedoch weder am Standort Wölfersheim noch am Standort Hungen mit unserem Netzwerk verbunden ist, eurer Outlook abfragen wollt, könnt ihr Euch mit dieser Anleitung mit Eurem Outlook verbinden. Achtung: gilt lediglich für Outlook nicht für die Laufwerke oder andere Programme. Bitte beachtet die Anleitung bis zum Ende und vergesst nicht das Abmelden am Ende Eurer Sitzung. 
+Dieser Zugang bietet Euch die Möglichkeit auf Euer Outlook zuzugreifen, E-Mails einzusehen (auch die Ordnerstruktur der abgelegten E-Mails) und zu versenden (auch mit Anhängen), Kalender einzusehen, Termine zu machen, Aufgaben zu erstellen, Kontakte zu suchen und neu anzulegen.
+Achtung! falls Anhänge mit versendet werden solltet Ihr Euch sicher sein, dass der Computer den Ihr benutzt einen guten und funktionierenden Virenscanner besitzt! Generell liegt es in Eurer Verantwortung darauf zu achten eine sichere Internetverbindung zu benutzen und Euch nach der Sitzung ordnungsgemäß abzumelden. Rechner in Internetcafés o.ä. sind tabu! Falls Ihr unterwegs seid und ein Laptop mitführt erkundigt Euch im Hotel o.ä. nach den Sicherheitsstandards der angebotenen Internetverbindung.
+ 
+======== Kalender ========
+Im Öffenltichen Kalender (Outlook) werden Einträge die alle Mitarbeiter betreffen oder interessieren eingetragen. Änderungen können von demjenigen gemacht werden, der den Eintrag erstellt sowei von Carola und Alex.
+Das heißt, jeder sollte seine Abwesenheit hier angeben, falls er auf Außenterminen ist, im Gelände kartiert auf einer Fortbildung ist usw. oder entsprechend seine Anwesenheit falls er Tage getauscht hat oder ähnliches. 
+Generell gilt, wer einen Termin im öffentlichen Kalender macht, gibt dem Termin auch die richtige Farbe.
+Rot == Außentermine
+Blau == Termine in Hungen
+Pfirsich == Termine in Wölfersheim
+Grau == Urlaub
+Bitte Überprüft welche Farben bei Euch eingestellt sind:
+Öffnet ein Fenster um einen neuen Termin zu erstellen. Im Header des Fensters seht ihr einen bunten Würfel „Kategorisieren“, bitte öffnet „Alle Kategorien“
+ 
+Folgendes Fenster ist zu sehen:
+ 
+
+Bitte stellt bei Euch die Farben und Namen wie im Fenster oben beschrieben ein und bestätigt die Änderungen mit „OK“. Eine neue Farbkategorie vergebt ihr mit dem Button „Neu…“ und anschließend „Umbenennen“.
+Die Termine in Hungen und Wölfersheim werden farblich markiert, egal ob diese in der Küche oder den Besprechungsräumen stattfinden. Termine bitte auf die Uhrzeit legen an denen Sie wirklich stattfinden, ohne Anreise oder Abreisezeiten mit einzurechnen. Diese Zusatzinformationen können im Fließtext des Termins vermerkt werden, falls nötig. Wenn man im öffentlichen Kalender Termine setzt bietet sich außerdem die Möglichkeit weitere „Teilnehmer“ zu diesem Termin einzuladen. Das bedeutet jeder der ausgewählten Teilnehmer erhält eine Einladung geschickt, die er dann annehmen oder ablehnen kann. Der Termin wird entsprechend automatisch im persönlichen Kalender eingetragen. Falls jemand einen Termin löscht oder verschiebt bekommen alle Teilnehmer eine entsprechende Nachricht.
+Falls Ihr für Kollegen einen Termin macht, erwähnt den Namen desjenigen im Betreff, da sonst Euer Name angezeigt, wird da Ihr den Termin erstellt habt.Falls Ihr zu einem Termin direkt einen Raum oder ein Auto buchen möchtet fügt den Raum oder das Auto als Ressource hinzu. 
+Falls es Termine gibt, die in keine dieser Kategorien passen, bleiben diese ohne 
+Farbgebung.
+Bitte macht keine weiteren Einstellungen z.B. unter „Anzeigen als:“ oder ähnliches.
+ACHTUNG! Bitte benutzt nicht die Möglichkeit einen Termin in Euren Kalender zu kopieren. Falls jemand noch Änderungen am Termin vornimmt werden diese nicht übermittelt. Setzt Euch selbst mit auf die Teilnehmerliste dann werden die Aktualisierungen auch an Euch verschickt.
+Bitte achtet darauf eine Belegung der Autos nicht als Ganztagestermin einzutragen, sondern mit konkreten Uhrzeiten, wenn nötig auch von 01:00 Uhr bis 24:00 Uhr. Denn nur so kann Outlook verhindern dass zwei Buchungen zur gleichen Zeit gemacht werden und bringt eine Fehlermeldung, falls dies versucht wird.
+Bitte alle Termine erst einmal im öffentlichen Kalender anlegen und Euch selbst auf die Teilnehmerliste setzten. 
+Außer der Termin ist privat, dann bitte gleich im persönlichen Kalender arbeiten und ggf. zusätzlich einen Vermerk im öffentlichen Kalender machen. 
+Termine mit dem Zeitpunkt eintragen an denen Sie stattfinden, eventuelle Reisezeiten im Text vermerken.
+Räume oder Autos als Ressource eintragen falls Ihr diese zum Termin buchen möchtet.
+Im öffentlichen Kalender nur die vorgegebenen Farben benutzen keine eigenen Kreationen.
+ 
+======== Login-Daten  ========
+Inzwischen verfügen wir bei einer Reihe von Dienstleistern und Behörden über Online-Nutzerkonten. Im Ordner Online-Zugänge in Hungen Zimmer Nord findet Ihr sämtliche Informationen hierzu, entsprechend existiert ein Ordner in WH.
+
+====== Neuanmeldung bei zusätzlichen Onlinediensten ======
+Die Anmeldung bei zusätzlichen, hier nicht aufgeführten Diensten ist grundsätzlich möglich. Folgende Regeln sollten dabei berücksichtigt werden:
+•	Es sollte ein sicheres Passwort gewählt werden (mind. 6 Zeichen besser 8 Zeichen mit mindestens einem Sonderzeichen, siehe Abschnitt Passwörter!)
+•	Es ist im Nutzerkonto immer der Firmenname (PNL / Regiokonzept) mit anzugeben
+ 
+======== Telefonie ========
+==== Systemtelefone ====
+Seit der Umstellung 2010 besitzt jeder Mitarbeiter mit einem festen Arbeitsplatz seine eigene Durchwahl. 
+Unter V:\Arbeiten_Technik_EDV\Info_Hardware\Telefonanlage stehen Benutzerhandbücher für die Zentrale und Einzeltelefone zur Verfügung.
+Die Funktionstastenbelegbung auf der linken Seite ist immer identisch.
+•	Zentrale HU: blinkt wenn Zentrale telefoniert, beim draufdrücken werdet ihr mit Zentrale verbunden
+•	Zentrale WH: blinkt wenn Zentrale telefoniert, beim draufdrücken werden ihr mit Zentrale verbunden
+•	Person > Zentrale: drücken um eine Umleitung zur jeweiligen Zentrale einzurichten, wenn blinkt ist Umleitung aktiv
+•	Person > Ziel: definierte Umleitung z.B. zu einer anderen Person
+•	Stumm: Stummschaltung bitte benutzen wenn ihr intern Rückfragen habt während des Telefonates, nicht den Hörer zuhalten o.ä.
+Wenn Ihr das Büro verlasst oder in die Pause geht stellt bitte die Umleitung zur jeweiligen Zentrale ein.
+Das rechte Telefonblatt kann wahlweise belegt werden. Zum Beispiel mit der Direktwahl zu den Mobilnummern der GF, einer beliebigen anderen Telefonnummer oder der Konferenz Taste. Für weitere Möglichkeiten bitte in die Benutzerhandbücher schauen.
+Hier die Vorlage in die Ihr Eure Änderungswünsche eintragen könnt, mit einem entsprechenden Vermerk in der Fehlerliste. Paul oder ein Mitarbeiter der KoCoNet wird die Einstellungen dann vornehmen.
+ 
+Rufnummer:		_________________________________
+Name, Vorname:	_________________________________
+1. Funktionstaste Ebene1 mit LED:
+Zentrale HU/WH	6. Funktionstaste Ebene1 mit LED 1:
+2. Funktionstaste Ebene1 mit LED 1:
+Zentrale HU/WH	7. Funktionstaste Ebene1 mit LED 1:
+
+3. Funktionstaste Ebene1 mit LED 1:
+Umleitung zu Zentrale	8. Funktionstaste Ebene1 mit LED 1:
+4. Funktionstaste Ebene1 mit LED 1:
+Umleitung zu anderer Person 	9. Funktionstaste Ebene1 mit LED 1:
+
+5. Funktionstaste Ebene1 mit LED 1:
+Stumm schalten	10. Funktionstaste Ebene1 mit LED 1:
+
+====== Telefonkonferenzen ======
+Mehr und mehr werden für unseren Geschäftsbetrieb Telefonkonferenzen wichtig. Deshalb werden hier nachfolgend zwei Optionen aufgezeigt, Telefonkonferenzen einzuleiten.
+Wir haben die Möglichkeit, aus unseren Büroräumen eine Konferenz mit drei Teilnehmern aufzubauen (s.u.). Sollen aber mehr Teilnehmer dazu eingeladen werden oder lässt sich die Konferenz nicht in den Geschäftsräumen abhalten, gibt es die Möglichkeit, bei der Telekom ein Telefonkonferenz zu bestellen. Auf diese Möglichkeit gehe ich zuerst ein.
+
+==== Telefonkonferenz über die Telekom buchen ====
+Die Telekom bietet einen Service an, um Telefonkonferenzen mit mehr als drei Teilnehmern (bis dahin können wir das nämlich selber, s. u.) einzurichten, die zudem ortsunabhängig sind.
+So geht es:
+1.	Bei der Telekom Deutschland, Zentrum Mehrwertdienste anrufen: 
+0800/0161 330,
+um die Telefonkonferenz zu bestellen.
+Das soll auch klappen, wenn die Konferenz kurzfristig geplant werden muss. Angeblich kann sie innerhalb einer Viertelstunde stehen. Wer's glaubt ... zeigt eine gewisse Risikofreudigkeit.
+2.	Als Daten müssen zur Hand sein:
+Codenummer: "48321749#" (# == Raute); sie wird telefonisch abgefragt und gilt für die PNL
+Email-Adresse des Moderators; Moderator ist derjenige, der die Konferenz verantwortet oder organisieren soll
+Wie viele Teilnehmer sollen an der Konferenz beteiligt sein?
+Es spielt keine Rolle, über welches Netz (O2, Vodafone, e-plus; Telekom ist eh klar) die Teilnehmer anrufen.
+Wann (Datum, Uhrzeit) soll die Konferenz stattfinden?
+3.	An die angegebene Emailadresse wird von konferenzen@telekom.de eine Bestätigungsmail gesandt. Diese beinhaltet Datum, Uhrzeit und Anzahl der reservierten Leitungen, die nochmals überprüft werden können.
+Eventuelle Änderungen am Auftrag werden mit der Auftrags-ID, die ebenfalls dieser Mail zu entnehmen ist, durchgegeben.
+Darin steht auch noch die Zugangstelefonnummer, die fallweise vergeben wird. Sie ist das „Kernstück“ des Vorhabens, denn über sie wird die Telefonkonferenz durchgeführt.
+4.	Die Bestätigungsmail oder zumindest die Zugangstelefonnummer samt Datum und Uhrzeit muss an die übrigen Konferenzteilnehmer weitergeleitet werden.
+5.	Zum vereinbarten Zeitpunkt wird von sämtlichen Beteiligten ohne Aufforderung die Zugangsnummer gewählt.
+Damit steht die Konferenz.
+
+==== Telefonkonferenz mit dem AGFEO-Systemtelefon ST21 ====
+Mit unseren hauseigenen Telefonen lassen sich Telefonkonferenzen mit insgesamt drei Teilnehmern realisieren. Hier steht, wie es geht.
+Konferenzschaltung einleiten
+ 
+1. Ersten Teilnehmer anrufen.
+2. Teilnehmer nimmt ab, Begrüßung und kurze Ankündigung des Konferenzaufbaus.
+3. Pfeiltaste (1) solange drücken, bis "Rückfrage?" im Display (3) erscheint.
+4. Mit OK (2) bestätigen (erster Teilnehmer hört nun Wartemusik).
+5. Zweiten Teilnehmer anrufen, dabei wie gewohnt die Null vorwählen bei externen Teilnehmern!
+6. Zweiter Teilnehmer nimmt ab, Begrüßung und kurze Ankündigung des Konferenzaufbaus.
+7. Wieder Pfeiltaste (1) drücken, bis "Konferenz" im Display erscheint.
+8. Das mit OK (2) bestätigen.
+Die Konferenz steht.
+ 
+======== Ansprechpartner IT / Fehlerliste ========
+Alle Soft- und Hardwareprobleme sowie Fragen dazu werden von den Mitarbeitern der KoCoNet GmbH bearbeitet. In die Fehlerlisten werden zentral alle IT-Probleme eingetragen und mit einer Dringlichkeitsstufe versehen. Es gibt eine Liste für Hungen und eine für Wölfersheim:
+V:\Arbeiten_Computer_Netzwerk\11_Fehlerliste
+Die Fehlerlisten sind ab dem 06.09.2010 gültig. Bitte tragt ab diesem Datum Eure Fragen und Probleme hier ein. Einmal die Woche werden die Fehlerlisten eingesehen und die Probleme bearbeitet, sofern es nicht dringender ist. In diesen Ausnahmefällen wendet Euch bitte an Daniela Bodenbender, Andrea Thiel oder Paul Hess.
+Bitte beobachtet auch die Eintragungen die zu Eurem Problem gemacht werden, so solltet Ihr den Fortgang der Bearbeitung verfolgen können. Ansprechpartner intern zur Betreuung der Fehlerlisten ist Paul Hess. Bitte wendet Euch zunächst an Paul und nur im Notfall direkt an die Mitarbeiter der KoCoNet. 
+Die 24h-Hotline der KoCoNet ist auf den Servern aufgeklebt falls das System komplett ausfallen sollte.
+Für Fragen zur Ablage oder Anlage von Ordnern, dem richtigen speichern von Dateien etc. sind die Teamleiter Ansprechpartner.
+
+======== Aktuelle Informationen ========
+Auf aktuelle Arbeiten oder Umstellungen werdet Ihr durch den IT-Newsletter aufmerksam gemacht der nach Bedarf alle paar Wochen versandt wird. Hier wird auch auf aktuelle Interne Mitteilungen aufmerksam gemacht. In Zukunft werden diese dann zum nachlesen auf dem Laufwerk V: abgelegt.
+Bitte beachtet auch folgende Mitteilungen/Anleitungen:
+2011-01-19_Einstellen_Standard_Schriftart_Outlook
+IM_2010-07-07_Kalender_PNL_RK
+IM_2010-07-20_Outlook_PNL_RK
+IM_2010-08-17_Adressen_Outlook
+IM_2010-08-18_KalenderFarben_PNL_RK
+IM_2010-08-18_Vertreterregelung_Diverses_PNL_RK
+IM_2010-09-20_Freigabeberechtigungen_PNL_RK
+
+

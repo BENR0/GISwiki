@@ -1,4 +1,4 @@
-===== Templates für Kartenlayouts =====
+====== Templates für Kartenlayouts ======
 Anstatt das Seitenformat für ein Projekt einzustellen und Planköpfe aus anderen Kartendokumenten rüber zu kopieren, gibt es eine einfache Möglichkeit direkt über die Layouttoolbar (siehe Bild) unsere Kartentemplates auf das aktuelle Kartendokument anzuwenden.
 
 {{:gis:arcgis:toolbar_layout.png?400|}}
