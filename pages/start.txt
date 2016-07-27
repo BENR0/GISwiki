@@ -1,4 +1,8 @@
   * [[GIS:GIS_Knigge|GIS - Knigge]]
   * [[gis:start|GIS]]
+<<<<<<< HEAD
   * [[GIS:QGIS|QGIS]]
   * [[GIS:ARCGIS|ArcGIS]]
+=======
+  * [[gis:qgis:start|QGIS]]
+>>>>>>> f0e1c68107053904d650e5c0b69899ed30016a0d

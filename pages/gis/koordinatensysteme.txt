@@ -7,7 +7,7 @@ Die bei uns gängisten Koordinatensysteme und Projektionen sind
   * Gauß-Krüger (Zone 3 und 4) meist im DHDN (Deutschen Hauptdreiecksnetz) und Besselellipsoid, abgekürzt mit GK3/ GK4
   * UTM (Zone 31N, 32N, 33N) mit WGS oder ETRS89 Ellipsoid , wobei die Zonen 31N und 33N nur die Randbereiche Deutschlands betreffen.
 
-Das Koordinatensystem ETRS89/ UTM ist bei Wahlmöglichkeit zu bevorzugen da dieses in Zukunft auch von allen Landesämtern so umgesetzt wird. Für praktische Belange ist bei UTM Koordinaten der WGS84 und ETRS89 Ellipsoid als übereinstimmend zu betrachten so dass hier keine Unstimmigkeiten bei der Verwendung auftreten sollten.
+Das Koordinatensystem ETRS89/ UTM ist bei Wahlmöglichkeit zu bevorzugen da dieses in Zukunft auch von allen Landesämtern so umgesetzt wird.
 
 === EPSG Codes ===
 Eine eineindeutige Referenz für Koordinatensysteme ist mit den international gültigen EPSG Codes möglich.
@@ -19,5 +19,22 @@ In folgender Tabelle findet sich eine Auflistung der uns hauptsächlich betreffe
 | ETRS/UTM Zone 31N (N-zE) | 5651 |
 | ETRS/UTM Zone 32N (N-zE) | 5652 |
 | ETRS/UTM Zone 33N (N-zE) | 5653 |
+
+Diese Koordinatensystem sind insbesondere auch bei den [[gis:arcgis:toolboxes:toolbox| hier]] zu findenden Tools in verwendung, sodass dieses in der Regel bei Nutzung dieser Projektionen sinnvolle Ergebnisse liefern sollten. Bei Verwendung von Projektionen mit anderen EPSG Codes sind bei den meisten Tools keine Einschränkungen zu erwarten jedoch kann es sein das Fehlermeldungen auftreten wenn keine passenden Transformationen von ArcGIS gefunden werden können. Hier sind nicht notwendigerweise alle Fehler abgefangen. Siehe hierzu auch im Kapitel [[gis:arcgis:toolboxes:toolbox#Toolbox Überblick]] den Hinweis zu Fehlermeldungen.
+
+Eine Auflistung mit Suchfunktion aller in Verwendung befindlicher EPSG Codes können auf folgender Seite erhalten werden
+
+ - [[http://spatialreference.org/]]
+
+zu finden.
+
+==== Transformationen ====
+
+Bei der Transformation von WGS84 und ETRS89 ist der Ellipsoid als übereinstimmend zu betrachten so dass hier, bei uns treffenden praktischen Belangen, keine Unstimmigkeiten bei der Verwendung auftreten sollten.
+Ist jedoch die gemeinsame Nutzung des DHDN sowie ETRS89 Datums in einem Projekt gegeben ist vorteilhafterweise der Genauigkeit wegen, eine Datumstransformation vorzunehmen. Für das gesamte Bundesgebiet betreffende Projekte ist hier mit Genauigkeiten von < 1m die BeTA2007 und für kleinräumigere Gebiete die NTv2 Gitterdatei (Genauigkeit < 3cm) zu verwenden.
+
+<note important>
+Es ist falls möglich immer die Reprojektion der On-the-fly Transformation der Geodaten vorzuziehen.
+</note>
 
 ==== Hintergrund ====

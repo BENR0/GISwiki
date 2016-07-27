@@ -1,0 +1,28 @@
+====== Selektion und Abfragen ======
+
+===== Selektion =====
+Selektionen sind grundsätzlich auf zwei Arten möglich. Zum einen kann direkt über die die Datenansicht mit dem Selektionstool (siehe Abbildung 1) Objekte ausgewählt werden, zum anderen über die Attributtabelle. In beiden Fällen werden die ausgewählten Objekte in der Datenansicht wie auch in der Attributtabelle farblich markiert.
+Weitere nützliche Buttons in der Selektions Toolbar sind das "Deselektieren Tool" (Symbol nit durchgestrichenem Kreis in rot) sowie den "Objekte mit Audruck auswählen" Button (siehe nächstes Kapitel).
+
+{{:gis:qgis:selection.png?300| Abb. 1}}
+
+Bei Auswahl in der Attributtabelle kann auf die selektierten Features gezoomt werden (Lupen Button in Abbildung 2). Darüber hinaus kann in der Attributtabelle zum besseren Überblick die Liste der angezeigten Features "verkürzt" werden in dem mittels dem am unteren Fensterrand zu findenden Dropdown die Anzeige auf die selektierten Features angepasst wird (Abb. 2).
+
+{{:gis:qgis:selektion_attributtabelle.png?300|Abb. 2}}
+
+Mit Hilfe des Info Button tools (Button ganz links in Abb. 1) lassen sich Attribute von Features in der Datenansicht abfragen. Hierbei wird unter dem Layerbaum 
+
+{{:gis:qgis:infobutton.png?300|Abb. 3}}
+
+=== Einstellung der Farbe selektierter Featuers ===
+Die Farbe mit welcher die selektierten Objekte markiert werden kann in den Einstellungen (Abbildung 4 und 5) eingestellt werden.
+
+{{:gis:qgis:selektion_farbeinstellung_1.png?300|Abb. 4}}
+
+{{:gis:qgis:selektion_farbeinstellung.png?300|Abb. 5}}
+
+
+===== Selektion nach Attributen =====
+Bei der Selektion nach Attributen können Datensätze basieren auf einer oder mehrerer Spalten in der Attributetabelle ausgewählt werden um so Untergruppen der Datensätze zu bilden. Der Dialog hierzu ist in Abb. 6 zu sehen. Hier kann die Abfrage auf einfache Weise mittels der in der mittleren Spalte zu findenden Operatoren und Variablen zusammengestellt werden.
+
+{{:gis:qgis:selektion_nach_attributen.png?300|Abb. 6}}
