@@ -1,0 +1,17 @@
+====== Fangoptionen ======
+
+Beim Digitalisierungsarbeiten sowie beim Messen von Distanzen/ Flächen ist es oft vorteilhaft wenn entsprechende Werkzeuge an den Elementen der dargestellten Objekte "ranschnappen". Diese Einstellungen können an zwei Stellen vorgenommen werden (global sowie für einzelne Layer).
+Es empfiehlt sich eine sinnvolle globale Einstellung vorzunehmen welche dann unter gegebenen Umständen mit den erweiterten Fangoptionen optimiert werden können.
+
+===== Globale Fangeinstellungen =====
+Die globalen Einstellungen finden sich unter //> Einstellungen > Optionen > Reiter Digitalisierung//.
+Hier kann eingestellt werden zu welchen Teilen von Objekten gefanden wird (Stützpunkte, Segemente oder beides) sowie die Fangtoleranz und der Suchradius für den Barbeitungsmodus.
+Diese Einstellungen sind letztendlich abhängig von persönlicher Präferenz sowie Anwendungsfall. Eine mögliche sinnvolle Einstellung wäre z.B. fangen an "Stützpunkten und Segmenten" sowie 20 Pixel für die Fangtoleranz/ Suchradius. Der Vorteil der Angabe der Fangtoleranz in Pixel statt in Karteneinheiten ist die Unabhängigkeit von der "Zoomstufe".
+
+{{:gis:qgis:fangoptionen.png?200|}}
+
+
+===== Erweiterte Fangeinstellungen =====
+
+Die erweiterten Einstellungen finden sich unter //> Einstellungen > Fangoptionen//.
+Hier kann über den Dropdown "Fangmodus" gewählt werden ob man die globalen Fangoptionen für den aktuellen, alle oder detailliert für jeden Layer separat überschreiben möchte. Die weiteren Einstellungsoptionen sind equivalent zu denen in den globalen Eintstellungen.

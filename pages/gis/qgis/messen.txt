@@ -1,6 +1,22 @@
 ====== Messen von Abständen ======
 
-{{:gis:qgis:messen_01.png?200|}}
+Abstände oder Flächen können mittels des Messwerkzeugs (Lineal Piktogram, siehe Bild 1) vorgenommen werden.
+Zur Abstandsmessung muss lediglich draufgeklickt werden worauf hin sich das Messergebnis Fenster (siehe Bild 2) öffnet. Nach klicken auf den Start- und Endpunkt der zu messenden Distanz zeigt dieses das Ergebnis an. Es kann auch ein Multiploygonzug vermessen werden. Dann wird neben der Summe auch jede Einzeldeistanz angezeigt. Eine Messung kann mit Rechtsklick auf den letzten Endpunkt beendet werden.
+
+{{:gis:qgis:messen_01.png?200| Messen Button}}
 
 
-{{:gis:qgis:messen_02.png?200|}}
+{{:gis:qgis:messen_02.png?200| Messergebnis Fenster}}
+
+
+Neben der Messung von Distanzen könnne auch Flächen und Winkel gemessen werden. Entsprechende Funktionalität kann über den Dropdown Pfeil am Messwerkzeug Button erreicht werden. 
+
+
+===== Einstellung des Messwerkzeugs ======
+
+Über den Konfigurieren Button im Messergebnisfenster gelangt man in den Einstellungsdialog für das Messwerkzeug (dieses ist auch über //> Einstellungen > Optionen > Reiter Kartenwerkzeuge// erreichbar).
+Hier können z.B. die Farbe des Messwerkzeugs sowie die Anzahl der anzuzeigenden Dezimalstellen eingestellt werden.
+
+=== Fangoptionen ===
+
+Die Fangeinstellungen für das Messwerkzeug sind identisch mit den allgemeinen [[gis:qgis:Fangoptionen| Fangoptionen]].
