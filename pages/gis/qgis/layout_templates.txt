@@ -1,0 +1,19 @@
+====== Kartenlayout Templates für QGIS ======
+
+Um z.B. Geländekarten ohne großen Aufwand beim layouten des Plankopfes etc welche dem TNL Standard entsprechen zu erstellen ist es möglich Layoutelemente aus Templates in neue Druckzusammenstellungen zu laden siehe hierzu auch [[gis:qgis:gelaendekarten| Geländekarten mit QGIS]].
+
+Die Templates hierfür liegen im Verzeichnis
+
+     V:\Vorlagen_CAD_GIS\GIS\Plankopf_vorlagen\qgis
+
+
+===== Einstellungen für Standardverzeichnis für Templates =====
+
+Um sich den Aufwand des "Durchklickens" bei der Auswahl der Layout Vorlage zu sparen kann in den allgemeinen QGIS Optionen (erreichbar über das Menü
+
+**//Einstellungen > Optionen > Reiter Allgemein//**
+
+der Pfad des Vorlagenverzeichnises auf den oben angegebenen Pfad eingestellt werden.
+
+{{:gis:qgis:template_verzeichnis.png?200| Vorlagenverzeichnis}}
+

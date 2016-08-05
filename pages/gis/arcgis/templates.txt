@@ -5,7 +5,7 @@ Anstatt das Seitenformat für ein Projekt einzustellen und Planköpfe aus andere
 
 Hierzu ist es anratsam den standard Template Order von ArcGIS auf unseren Template Ordner auf dem Laufwerk V zeigen zu lassen. Hierzu wie folgt vorgehen.
 Im Pfad 
-    "C:\Program Files (x86)\ArcGIS\Desktop10.3\Utilities"
+    C:\Program Files (x86)\ArcGIS\Desktop10.3\Utilities
 AdvancedArcMapSettings.exe aufrufen und im Reiter "System Paths" den Pfad in 
     V:\Vorlagen_CAD_GIS\GIS\Plankopf_vorlagen
 ändern. Nach dem Speichern und Neustart sind über den "Layout wechseln" Button die Vorlagen auswählbar.

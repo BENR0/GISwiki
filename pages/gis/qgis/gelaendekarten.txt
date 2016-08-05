@@ -1,0 +1,28 @@
+
+====== Geländekarten mit QGIS ======
+
+Die Erstellung von Kartenlayouts ist über den Karteneditor aus QGIS heraus möglich.
+Hierzu wird über das Menü (siehe auch Bild)
+
+**//Projekt > Neue Druckzusammenstellung//**
+    
+eine neues Kartenlayout angelegt (im Gegensatz zu ArcGIS können in QGIS mehrer Layouts pro Projekt angelegt und gespeichert werden).
+Hier ist zunächst ein Name für das neue Layout einzugeben.
+
+{{:gis:qgis:karteneditor_01.png?200| Neue Druckzusammenstellung}}
+
+
+<note important>
+Vor dem Laden des Geländekarten Layouts ist darauf zu achten das die Seitengröße in der Zusammenstellung auf A3 (siehe Bild) umgestellt wird!
+{{:gis:qgis:karteneditor_03.png?200| Seiteneinstellung}}
+</note>
+Im Karteneditor kann über das Menü (siehe auch Bild)
+
+**//Zusammenstellung > Elemente aus Vorlage hinzufügen//**
+
+aus einer Vorlage ein schon [[gis:qgis:layout_templates| vorgefertigtes Geländekartenlayout]] hinzugeladen werden, sodass nur noch der Kartenausschnitt ausgerichtet sowie die Projektdaten (wie Projektname und Kartenname) ausgefüllt werden müssen.
+
+
+
+{{:gis:qgis:karteneditor_02.png?200| Elemente aus Vorlage hinzufügen}}
+
