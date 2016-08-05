@@ -1,5 +1,9 @@
 [[\\FIL-01\Orga_InterneMitteilungen\IT_Leitfaden\IT-Leitfaden_PNL_RK_2012-08-14.pdf]]
 
+<note warning>
+NICHT AKTUELL!!!
+</note>
+
 
 ======== Einleitung ========
 Das vorliegende Dokument enthält den IT-Leitfaden der Planungsgruppe für Natur und Landschaft bzw. der RegioKonzept GmbH. 

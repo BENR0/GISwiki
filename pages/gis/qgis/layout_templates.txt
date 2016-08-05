@@ -1,6 +1,6 @@
 ====== Kartenlayout Templates für QGIS ======
 
-Um z.B. Geländekarten ohne großen Aufwand beim layouten des Plankopfes etc welche dem TNL Standard entsprechen zu erstellen ist es möglich Layoutelemente aus Templates in neue Druckzusammenstellungen zu laden siehe hierzu auch [[gis:qgis:gelaendekarten| Geländekarten mit QGIS]].
+Um z.B. Geländekarten ohne großen Aufwand beim layouten des Plankopfes etc welche dem TNL Standard entsprechen zu erstellen ist es möglich Layoutelemente aus Templates in neue Druckzusammenstellungen zu laden. Siehe hierzu auch [[gis:qgis:gelaendekarten| Geländekarten mit QGIS]].
 
 Die Templates hierfür liegen im Verzeichnis
 

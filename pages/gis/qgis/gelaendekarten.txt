@@ -14,6 +14,7 @@ Hier ist zunächst ein Name für das neue Layout einzugeben.
 
 <note important>
 Vor dem Laden des Geländekarten Layouts ist darauf zu achten das die Seitengröße in der Zusammenstellung auf A3 (siehe Bild) umgestellt wird!
+
 {{:gis:qgis:karteneditor_03.png?200| Seiteneinstellung}}
 </note>
 Im Karteneditor kann über das Menü (siehe auch Bild)
@@ -23,6 +24,12 @@ Im Karteneditor kann über das Menü (siehe auch Bild)
 aus einer Vorlage ein schon [[gis:qgis:layout_templates| vorgefertigtes Geländekartenlayout]] hinzugeladen werden, sodass nur noch der Kartenausschnitt ausgerichtet sowie die Projektdaten (wie Projektname und Kartenname) ausgefüllt werden müssen.
 
 
-
 {{:gis:qgis:karteneditor_02.png?200| Elemente aus Vorlage hinzufügen}}
 
+
+===== Maßstab einstellen =====
+
+Um eine adequate Darstellung auf der Karte zu erreichen ist es notwendig einen passende Maßstab einzustellen. Klickt man in der Element Liste auf das entsprechende Kartenobjekt und wählt dann den Tab //Elementeigenschaften// (siehe Bild) kann dort der Maßstab eingestellt werden.
+Das einfachste Vorgehen ist im QGIS Projekt auf den darzustellenden Kartenteil zu zoomen und dann im Karteneditor unter den Elementeigenschaften des Kartenrahmens über //Ausdehung > Anzeigengrenze übernehmen// diesen zu übernhemen. Hierbei aktuallisiert sich auch in den //Haupteigenschaften// der Maßstab. Ist das Ergebnis noch nicht zufriedenstellen kann nun der Maßstab hier noch feinabgestimmt werden.
+
+{{:gis:qgis:karteneditor_04.png?200|}}

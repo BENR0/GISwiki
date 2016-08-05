@@ -9,4 +9,5 @@ Im Pfad
 AdvancedArcMapSettings.exe aufrufen und im Reiter "System Paths" den Pfad in 
     V:\Vorlagen_CAD_GIS\GIS\Plankopf_vorlagen
 ändern. Nach dem Speichern und Neustart sind über den "Layout wechseln" Button die Vorlagen auswählbar.
+
 {{:gis:arcgis:change_layout.png?400|}}
