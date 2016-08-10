@@ -1,6 +1,6 @@
-===== Koordinatensysteme und Projektionen =====
+====== Koordinatensysteme und Projektionen ======
 
-==== Schnellinfo ====
+===== Schnellinfo =====
 
 Die bei uns gängisten Koordinatensysteme und Projektionen sind
 
@@ -9,26 +9,28 @@ Die bei uns gängisten Koordinatensysteme und Projektionen sind
 
 Das Koordinatensystem ETRS89/ UTM ist bei Wahlmöglichkeit zu bevorzugen da dieses in Zukunft auch von allen Landesämtern so umgesetzt wird.
 
-=== EPSG Codes ===
+==== EPSG Codes ====
 Eine eineindeutige Referenz für Koordinatensysteme ist mit den international gültigen EPSG Codes möglich.
 In folgender Tabelle findet sich eine Auflistung der uns hauptsächlich betreffenden EPSG Codes und Koordinatensysteme.
 
 ^ Koordinatensystem        ^ EPSG Code   ^
+| Gauß-Krüger Zone 1, DHDN (GK2) | 31466 |
 | Gauß-Krüger Zone 3, DHDN (GK3) | 31467 |
 | Gauß-Krüger Zone 4, DHDN (GK4) | 31468 |
+| Gauß-Krüger Zone 5, DHDN (GK5) | 31469 |
 | ETRS/UTM Zone 31N (N-zE) | 5651 |
 | ETRS/UTM Zone 32N (N-zE) | 5652 |
 | ETRS/UTM Zone 33N (N-zE) | 5653 |
 
 Diese Koordinatensystem sind insbesondere auch bei den [[gis:arcgis:toolboxes:toolbox| hier]] zu findenden Tools in verwendung, sodass dieses in der Regel bei Nutzung dieser Projektionen sinnvolle Ergebnisse liefern sollten. Bei Verwendung von Projektionen mit anderen EPSG Codes sind bei den meisten Tools keine Einschränkungen zu erwarten jedoch kann es sein das Fehlermeldungen auftreten wenn keine passenden Transformationen von ArcGIS gefunden werden können. Hier sind nicht notwendigerweise alle Fehler abgefangen. Siehe hierzu auch im Kapitel [[gis:arcgis:toolboxes:toolbox#Toolbox Überblick]] den Hinweis zu Fehlermeldungen.
 
-Eine Auflistung mit Suchfunktion aller in Verwendung befindlicher EPSG Codes können auf folgender Seite erhalten werden
+Eine Auflistung mit Suchfunktion aller in Verwendung befindlicher EPSG Codes sind auf folgender Seite
 
  - [[http://spatialreference.org/]]
 
 zu finden.
 
-==== Transformationen ====
+===== Transformationen =====
 
 Bei der Transformation von WGS84 und ETRS89 ist der Ellipsoid als übereinstimmend zu betrachten so dass hier, bei uns treffenden praktischen Belangen, keine Unstimmigkeiten bei der Verwendung auftreten sollten.
 Ist jedoch die gemeinsame Nutzung des DHDN sowie ETRS89 Datums in einem Projekt gegeben ist vorteilhafterweise der Genauigkeit wegen, eine Datumstransformation vorzunehmen. Für das gesamte Bundesgebiet betreffende Projekte ist hier mit Genauigkeiten von < 1m die BeTA2007 und für kleinräumigere Gebiete die NTv2 Gitterdatei (Genauigkeit < 3cm) zu verwenden.
@@ -37,4 +39,29 @@ Ist jedoch die gemeinsame Nutzung des DHDN sowie ETRS89 Datums in einem Projekt 
 Es ist falls möglich immer die Reprojektion der On-the-fly Transformation der Geodaten vorzuziehen.
 </note>
 
-==== Hintergrund ====
+===== Hintergrund =====
+
+Projektionen dienen der Verebung von Ellipsoidoberflächen auf die Ebene. Neben etlichen weiteren Abbildungssystemen gibt es hier Gauß-Krüger (GK) (in der Vergangenheit der Standard in Deutschland) sowie UTM (Universal Transverse Mercator). Diese beiden Projektionen gehören zu den transversal konformen Zylinderabbildungen. Der Unterschied der beiden Systeme liegt im zugrundeliegenden Referenzellipsoid welcher bei den GK Koordinaten der Bessel repektive Krassowski Ellipsoid und bei UTM der GRS 80 Ellipsoid. Zusammen mit dem jeweiligen Referenzrahmen welches die gemessenen Punkte über einen Fundamentalpunkt mit dem Ellipsoiden verbindet ergbit sich so das Datum und ermöglicht die Beschreibung von realen Orten auf der Erde mittels Koordinaten.
+
+==== DHDN/ Gauß-Krüger ====
+
+Das Koordinatensystem Gauß-Krüger mit DHDN (Deutsches Haupdreiecksnetz) Datum soll bei den Landesämtern durch das UTM System abgelöst werden, jedoch liegen bei vielen Landesämter nach wie vor viele raumbezogene Daten in diesem Koordinatensystem vor.
+Das Gauß-Krüger Koordinatensystem wird hauptsächlich im deutschsprachichen Raum genutzt. Es teilt das geographischen Koordinatennetz in 3° Breite Streifen welche vom Nord zum Südpol laufen. Jeder Streifen hat eine Nummer, da Deutschland im wesentlichen im 9° und 12° Streifen östlicher Länge liegt sind diese hier GK3 und GK4.
+
+==== ETRS89/ UTM ====
+
+Im Gegensatz zum GK Koordinatensystem sind die Streifen beim UTM Koordinatensystem 6° anstatt 3° Breit. Das führt dazu das zum Rand der Streifen die Verzehrungen (Winkel und Längen) zunhemen. Daher ist bei dieser Projektion noch ein Korrekturfaktor von 0.996 angewendet welcher den Mittelmeridian verkürzt darstellt. Mit zunehmendem Abstand zum Mittelmeridian nehmen diese Verkürzung ab bis sie bei ca. 180km verschwindet.
+
+
+===== Transformationen =====
+
+Bei der Verwendung von Koordinatensystemen mit unterschiedlichem Datum (e.g. DHDN/GK und ETRS/UTM) ist der Genauigkeit wegen darauf zu achten das eine Transformation zur überführung der Koordinatensysteme ineinander vorgenommen wird. Hierbei wird in Deutschland der NTv2 Ansatz gewählt, welcher auf dem Einsatz eines regelmäßigem Passpunktgitters basiert. Hierzu werden für jeden Gitterpunkt ein Shiftwert berechnet welcher den Unterschied zwischen den Längen und Breitenangaben zwischen den zu überführenden Koordinatensystemen angibt und in einer Gitterdatei gespeichert. Diese wird von den Landesämtern zur Verfügung gestellt ist aber in gängigen GIS Software Paketen auch schon enthalten.
+
+
+===== Weitere/ Ausführlichere Informationen =====
+
+[[http://www.radrouting.de/gps-kurse/kartenkunde-f%C3%BCr-gps/| Gut verständliche Erklärung von Abbildungen, Koordinatensystemen, Datum, Bezugssystemen sowie Orientierung mit Karte + Kompass]]
+
+[[http://gis.wiki.fau.de/mediawiki/index.php/Gau%C3%9F-Kr%C3%BCger-Koordinatensystem]| Bestimmung der Lage eines Punktes - Rechtswert und Hochwert]]
+
+[[http://www.landesvermessung.sachsen.de/inhalt/etrs/grund/grund.html| Grafik Zusammenhang von Koordinatensystem + Datum/ Erklärung von Projektionen + Transformation]]
