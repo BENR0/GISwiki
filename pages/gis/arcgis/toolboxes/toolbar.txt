@@ -1,4 +1,5 @@
 ====== Toolbar Überblick ======
+
 Die Toolbar unterscheidet sich von der Toolbox im wesentlichen dadurch das entweder kein oder deutlich weniger User Input erforderlich ist sowie die Interaktion/ Steuerung mit der Benuteroberfläche von ArcGIS.
 Aktionen werden Beispielsweise einfach durch klick auf einen Button oder ein Dropdown Menü ausgeführt.
 
@@ -12,30 +13,36 @@ Falls Werkzeuge nicht das gewünschte Ergebnis bringen oder anderweitig Fehler a
 </note>
 
 ====== Buttons/ Dropdowns ======
+
 Im folgenden sind die einzelenen Buttons und Dropdowns der Toolbar kurz erklärt.
 
-==== Open Explorer ====
-Dropdown Menü mit zwei Einträgen. Der erste Eintrag öffnet den Windows Explorer an dem Ort an welchem das im Inhaltsverzeichnis (Layer Baum) selektierte Shapefile liegt.
-Für den zweite Eintrag ist keine Auswahl notwendig, dieser öffnet den Ordner in welchem das Projekt liegt.
+===== Open Explorer =====
+Dropdown Menü mit drei Einträgen. Der erste Eintrag öffnet den Windows Explorer an dem Ort an welchem das im Inhaltsverzeichnis (Layer Baum) selektierte Shapefile liegt.
+Der zweite Eintrag kopiert den Pfad des aktuell gewählten Layers in die Zwischenablage.
+Für den dritten Eintrag ist keine Auswahl notwendig, dieser öffnet den Ordner in welchem das Projekt liegt.
 Nützlich um ohne viel Suchen Shapefiles im Explorer zu finden oder auch einfach nur ohne viel klicken zum Projektordner zu gelangen.
 
 
-==== Find Definition Querys ====
+===== Find Definition Querys =====
+
 Häufig sind auf Layern in Projekten Definitionsabfragen aktiv, was manchmal zu Verwunderung führen kann wo Daten abgeblieben sind. Um nicht jeden Layer einzeln prüfen zu müssen kann dieser Button genutzt werden.
 Er listet alle Definitionsabfragen welche im Projekt mit angabe des Layernamens auf.
 
 <note warning> Leider Leider kann dieser Button keine Seitendefinitionsabfragen auflisten. Hierfür ist in ArcGIS keine Schnittstelle vorgesehen. Da dies etwas komplizierter zu Implementieren wäre ist dieses Feature auf unbestimmte Zeit verschoben.</note>
 
 
-==== List all locks for layers ====
+===== List all locks for layers =====
+
 Manchmal kommt es vor das man z.B. keine Flächen berechnen kann oder ähnliches weil jemand anderes gerade ein Projekt offen hat in welchem dieses Shapefile auch genutzt wird. Um diesen Übeltäter zu finden eignet sich dieser Button. Er listet alle Locks mit Rechner Namen auf.
 
 
-==== Calculate Area ====
+===== Calculate Area =====
+
 Flächenberechnung ist eine häufig durchzuführende Aufgabe, welche zugegebenermaßen nicht schwer ist aber doch einige Klicks erfordert (Attributtabelle öffnen, Feld mit entsprechendem Datentyp anlegen, Feld berechnen). Dieser Button reduziert das ganze auf einen Klick für den im Inhaltsverzeichnis ausgeählten Layer. Es werden, falls diese noch nicht existieren, zwei Felder angelegt (AREA_HA und AREA_QM) und die jeweiligen Flächen berechnet. Für die Quadratmeter werden die Flächen automatisch auf volle Quadratmeter gerundet.
 Falls die entsprechenden Felder schon existieren (hierbei wird nicht zwischen Groß- und Kleinschreibung der Feldnamen unterschieden!), werden diese mit Klick auf den Button upgedatet.
 
-==== Join ====
+===== Join =====
+
 Häufig müssen z.B. Biotoptypen oder auch Vogelnamen an digitalisierte Shape angebunden werden. Auch dies ist an sich keine besonders schwierige aber doch manchmal aufregende (nicht im Sinne von spannende) Sache, da obschon ArcGIS offiziell z.B. mit Excel Tabllen ganz prächtig harmoniert im Alltag jedoch je nach Facon den Dienst mit mehr oder minder nachvollziehbaren Gründen quittiert. Nicht zuletzt ist, da ESRI im Falle unseres plötzlichen Herztodes sehr wahrscheinlich keinen Geldregen zwecks Versüßung des Lebens unseren Hinterbliebenen ausschütten wird, dieser unbedingt zu vermeiden. Hoffentlich gelingt das mit diesem Button. Layer im Inhaltsverzeichnis auswählen Button drücken und "Zack fertich, Table Join".
 Genau genommen ist es kein Join, da das bestehende Shape mit den Informationen direkt upgedatet wird (Table Joins sind nur temporär). Somit entfällt auch das neuerliche Exportieren des Shapes.
 Die für den Join angelegten Felder beginnen mit einem "J" sodass klar ist woher diese kommen.
@@ -49,11 +56,12 @@ Aktuell können folgende Daten angebunden werden: BTT aus Hessen, Niedersachsen,
 </note>
 
 <note warning>
-Es gibt noch einen Bug in der Validierung der Daten nach dem kopieren. Falls im Joinfeld Tippfehler oder ähnliches verhindern das ein passender Datensatz in der Tabelle gefunden wird listet der Button aus noch unerklärlichen Gründen nicht immer diese Datensätze asl Hinweis auf. Daher ist im Zweifel noch selbst ein kurzer Check durch zu führen.
+Es gibt noch einen Bug in der Validierung der Daten nach dem kopieren. Falls im Joinfeld Tippfehler oder ähnliches verhindern das ein passender Datensatz in der Tabelle gefunden wird listet der Button aus noch unerklärlichen Gründen nicht immer diese Datensätze als Hinweis auf. Daher ist im Zweifel noch selbst ein kurzer Check durch zu führen.
 </note>
 
 
-==== Reproject ====
+==== Reproject =====
+
 Dieser Button dient dazu zeitsparend alle im Projekt vorhandenen Shapefiles auf die Projektion des Datenrahmens umzuprojezieren. Hierbei wird in der Regel auch etwaige zutreffende Transformation angewendet.
 Die umprojezierten Shape files werden mit dem Dateinamen angehängten Namen des Zielkoordinatensystems im selben Ordner wie das alte Shape abgespeichert.
 
@@ -62,36 +70,41 @@ Leider gibt es noch einen Bug, welcher in einigen Kombinationen von Koordinatens
 </note>
 
 
-==== New shape from template ====
+===== New shape from template =====
 
 Dieses Dropdown Menü vereinfacht das Anlegen von neuen Shape files basierend auf unseren Standard Shapes für die Digitalisierung von Biotoptypen und Vögeln.
 Nach Klick auf den Button wird abgefragt wohin das Shape gespeichert werden soll und ein Namensvorschlag gemacht, welcher ggf. anzupassen ist. Bei Klick auf speichern wird das entsprechende Standars Shape kopiert zum Projekt hinzugefügt und mit dem Raumbezug des Datenrahmens versehen sodass im direkt mit der Digitalisierung begonnen werden kann. Wichtig ist hierbei natürlich das dem Datenrahmen vorher die gewünschte Projektion zugewiesen ist.
 
-==== Change Plankopf ====
+===== Change Plankopf =====
+
 Dieser Dropdown hilft bei der schnellen Anpassung unserer Layout Templates an einige häufig gebrauchte Auftraggeber.
 Wird z.B. zur Erstellung einer Geländekarte unser GK Template (siehe auch [[gis:arcgis:templates| Layout Templates]]) für das Layout verwendet müssen in der Regel noch das Logo, die Adresse etc. des Auftraggebers sowie der GIS Bearbeiter ausgefüllt werden. Dies kann mit Hilfe dieses Buttons vereinfacht werden. Nach Auswahl des gewünschten Auftraggebers wird automatisch das Logo sowie die Kontaktdaten in den entsprechenden Feldern ausgetauscht sowie der GIS Bearbeiter basieren auf dem Loginnamen des am Rechner angemeldeten Benutzers ausgefüllt.
 
 
-==== Layers to file ====
+===== Layers to file =====
+
 Dieser Button listet den Speicherort aller im Projekt vorhandenen Layer in einer Textdatei auf welche dann z.B. mit entsprechendem QGIS script und dem QGIS Scriptrunner Plugin in ein QGIS Projekt importiert werden können.
 Dieser Button ist eigentlich ein kleiner Hack gewesen aber auf Wunsch trotzdem in der Toolbar geblieben und mehr eine Zwischenlösung um etwas schneller ArcGIS Projekte in ein QGIS Projekt zu überführen.
 
 
-==== ToGPX ====
+===== ToGPX =====
+
 Button zum abspeichern vom ausgewählten Layer als GPX Datei.
 
 
-==== TB ====
+===== TB =====
+
 Beta Version zur Erstellung von BTT Legenden Texten.
 
 
-==== OSM ===
-<note warning>
-BETA VERSION !
-</note>
+===== OSM ====
+
 Drop Down Menü zum herunterladen von OSM Daten für den Extent des im Table of Contents gewählten Layer.
 Es wird automatisch, falls nicht vorhanden, unter "av_daten" eine Verzeichnis "10_OSM" angelegt in welchem die heruntergeladenen Daten nach Thema gespeichert werden. Anschließend werden die Daten als Shapefile exportiert und in das Koordinatensystem des Data frame  projeziert und einem Gruppenlayer mit dem Namen des im Dropdown gewählten Themas dem Projekt hinzugefügt.
 
-=== Schutzgebiete ===
+==== Schutzgebiete ====
 Informationen zu den Schutzgebeitsklassen finden sich hier:
 [[http://wiki.openstreetmap.org/wiki/Tag:boundary%3Dprotected_area|OSM Schutzgebiete Tags]]
+
+==== Wald ====
+Es wird forstwirtschaftliche genutzter Wald (tag landuse = forest) sowie ungenutzter Wald / Urwald (tag natural = wood) geladen.
