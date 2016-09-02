@@ -1,0 +1,16 @@
+====== Styles für Darstellungen ======
+
+Die meisten der für ArcGIS vom GIS Team erarbeiteten Signatur Styles können auch in QGIS genutzt werden.
+Hierzu müssen diese einmalig wie folgt importiert werden.
+
+In QGIS ist über **// > Einstellungen > Stilverwaltung //** das Stilverwaltungsfenster aufzurufen.
+Hier kann mittels des Dropdowns am rechten unteren Fensterrand die Importfunktion genutzt werden (siehe Bild).
+
+{{:gis:qgis:stilverwaltung.png?200| Stilverwaltung}}
+
+Die zu importierenden Styles befinden sich  im Verzeichnis
+
+    V:\Vorlagen_CAD_GIS\GIS\styles_aktuell\QGIS
+    
+Leider müssen die Styles alle einzeln importiert werden, bleiben fortan jedoch in QGIS erhalten.
+Die Styles können jetzt im [[gis:qgis:symbologie | Symbologie Dialog]] der Layereigenschaften zur Darstellunge genutzt werden.

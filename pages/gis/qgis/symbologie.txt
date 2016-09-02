@@ -1,0 +1,18 @@
+====== Symbologie und Beschriftung ======
+
+Mittels Doppelklick auf den jeweiligen Layer im Layerfenster gelangt man in die Layereigenschaften.
+Neben allgemeinen Informationen des Layers (wie z.B. des Koordinatensystems etc.) findet man hier unter dem zweiten Reiter auf der linken Seite die Symbologie Eigenschaften (genannt "Stil") sowie unter Reiter drei die Beschriftungseigenschaften.
+
+===== Kategorisierte Darstellung =====
+
+Für die kategorisierte Darstellung wird nach der Auswahl von **"Kategorisiert"** im Dropdownmenü an der oberen Fensterkante zunächst die **Spalte gewählt** nach der die Kategorien gebildet werden sollen. Mit dem Klick auf den Button **"Klassifizieren"** werden die Kategorien hinzugefügt und die Signaturen können angepasst werden.
+
+
+{{:gis:qgis:layereig_symbologie.png?200|}}
+
+
+===== Beschriftungen =====
+
+Um Features zu beschriften wird im Reiter **"Beschriftungen"** mittels des oberen Dropdowns zunächst **"Diesen Layer beschriften"** ausgewählt. Direkt unter diesem Dropdown wählen wir dann die Spalte in der Attributtabelle welche die Beschriftungsinformationen enthält.
+
+{{:gis:qgis:layereig_beschriftung.png?200|}}

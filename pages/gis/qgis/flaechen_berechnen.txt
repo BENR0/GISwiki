@@ -1,0 +1,17 @@
+====== Flächen berechnen ======
+
+Um Flächen in QGIS zu berechnen öffnen wir über **// > Rechtsklick > Attributtabelle öffnen //** die Attributtabelle des Shapes.
+Hier können wir nun über den Button mit dem Abakus Symbol eine Feldberechnung durchführen.
+
+{{:gis:qgis:flaeche_berechnen.png?200| Feldrechner Dialog aufrufen.}}
+
+Falls noch kein Feld für die Fläche (e.g. "area_qm" für Quadratmeter oder "area_ha" für Hektar) vorhanden ist kann ein neues Feld angelegt werden. Im gegenteiligen Fall können bestehende Felder erneut berechnet und somit upgedatet werden. Hierzu muss lediglich das Häckchen im Feldberechnungsdialog entsprechend gesetzt werden.
+
+{{:gis:qgis:flaeche_berechnen_01.png?200| Feldrechner.}}
+
+nach Eingabe des Feldnamens (im Falle das noch kein Feld existiert) sollte der Ausgabefeldtyp auf Dezimalzahl um gestellt werden und die Genauigkeit auf 2 erhöht werden.
+In das Ausdrucksfenster kann dann mittels Doppelklick auf die **Funktion // > Geometrie > $area // ** die Flächenberechnungsfunktion hinzugefügt werden.
+Diese berechnet die Fläche in den Einheiten des Koordinatensystems welches im projekt eingestellt ist (Hier muss darauf geachtet werden dass ein sinnvolles Koordinatensystem eingestellt ist z.B. GK oder UTM. siehe hierzu auch die weiteren Informationen zu [[gis:koordinatensysteme | Koordinatensysteme]].
+In GK und UTM Koordinaten werden also Quadratmeter ausgegeben sollten z.B. Hektar gewünscht sein, kann dies erreicht werden indem der Ausdruck im Ausdruckfenster durch 10000 geteilt wird (dies kann in einem Schritt geschehen).
+
+Nach dem Hinzufügen eines neuen Feldes ist drauf zu achten die Änderung zu speichern und den Bearbeitungsmodus über den Button mit dem Bleistiftsymbol wieder zu beenden um ungewollte Änderungen zu vermeiden.

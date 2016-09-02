@@ -12,11 +12,16 @@ Zur Abstandsmessung muss lediglich draufgeklickt werden worauf hin sich das Mess
 Neben der Messung von Distanzen könnne auch Flächen und Winkel gemessen werden. Entsprechende Funktionalität kann über den Dropdown Pfeil am Messwerkzeug Button erreicht werden. 
 
 
+===== Messungen und Koordinatensysteme =====
+
+<note warning> Beim Messen ist darauf zu achten das die Spontane Reprojektion (auch on-the-fly transformation) nicht aktiviert ist da sonst die Messungen Fehlerbehaftet sind. Sollten hier Zweifel bestehen ist es anratsam sich an den GIS Mitarbeiter seines Vertrauens zu wenden.
+</note>
+
 ===== Einstellung des Messwerkzeugs ======
 
 Über den Konfigurieren Button im Messergebnisfenster gelangt man in den Einstellungsdialog für das Messwerkzeug (dieses ist auch über //> Einstellungen > Optionen > Reiter Kartenwerkzeuge// erreichbar).
 Hier können z.B. die Farbe des Messwerkzeugs sowie die Anzahl der anzuzeigenden Dezimalstellen eingestellt werden.
 
-=== Fangoptionen ===
+==== Fangoptionen ====
 
 Die Fangeinstellungen für das Messwerkzeug sind identisch mit den allgemeinen [[gis:qgis:Fangoptionen| Fangoptionen]].
