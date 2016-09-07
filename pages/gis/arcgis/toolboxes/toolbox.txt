@@ -47,7 +47,7 @@ Tool um die RNA Analyse nicht per Hand machen zu müssen. Das Fishnet wird im 60
 Die Flugbewegungen werden ausgewertet und jeweils die Grenzwerte für den zwei (75/25%) und drei Kategorien (70/20/Rest %) Fall berechnet kategorisiert und in das Fishnet übertragen. Das Gitter wird zum Schluss dem Projekt hinzugefügt und nach dem Vorlagen lyr file gestylt.
 
 <note important>
-Es ist unbedingt notwendig das das Koordinatensystem eines der folgenden EPSG Codes ist da sonst nicht die Richtigkeit der Gitterausrichtung gewährleistet ist: (UTM: 5652, 5653 ; GK: 31467, 31468). Weitere Infos zu diesen EPSG Codes sind [[gis:koordinatensysteme|hier]] zu finden.
+Es ist unbedingt notwendig das das Koordinatensystem eines der folgenden EPSG Codes ist da sonst nicht die Richtigkeit der Gitterausrichtung gewährleistet ist: (UTM: 5651, 5652, 5653, 25832, 25832, 25833 ; GK: 31466, 31467, 31468). Weitere Infos zu diesen EPSG Codes sind [[gis:koordinatensysteme|hier]] zu finden.
 </note>
 
 

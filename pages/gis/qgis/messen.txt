@@ -14,7 +14,7 @@ Neben der Messung von Distanzen könnne auch Flächen und Winkel gemessen werden
 
 ===== Messungen und Koordinatensysteme =====
 
-<note warning> Beim Messen ist darauf zu achten das die Spontane Reprojektion (auch on-the-fly transformation) nicht aktiviert ist da sonst die Messungen Fehlerbehaftet sind. Sollten hier Zweifel bestehen ist es anratsam sich an den GIS Mitarbeiter seines Vertrauens zu wenden.
+<note warning> Beim Messen ist darauf zu achten das kein geografisches Koordinatensystem (Einheiten Längen/ Breitengrade) für den Datenrahmen ingestellt ist da sonst die Messungen Falsch sind. Ein mögliches Indiz hierfür ist wenn hinter dem EPSG Code in der rechten unteren Ecke "SRP" angezeigt wird. Sollten hier Zweifel bestehen ist es ratsam sich an den GIS Mitarbeiter seines Vertrauens zu wenden.
 </note>
 
 ===== Einstellung des Messwerkzeugs ======
