@@ -108,3 +108,29 @@ Informationen zu den Schutzgebeitsklassen finden sich hier:
 
 ==== Wald ====
 Es wird forstwirtschaftliche genutzter Wald (tag landuse = forest) sowie ungenutzter Wald / Urwald (tag natural = wood) geladen.
+
+
+===== ZipShapes =====
+
+Zunächst die zu exportierenden Layer im Inhaltsverzeichnis auswählen dann den Buttton drücken.
+<note important>
+Wenn Definitionsabfragen auf Layers geschaltet sind werden auch nur die Abgefragten Daten exportiert.
+</note>
+
+
+===== Dynamische Vogel Tabelle =====
+
+Im Inhaltsverzeichnis den Layer auswählen für welchen eine Tabelle mit Vogelnamen und Abkürzungen für die Legende benötigt wird.
+Dann auf den Button klicken. Die Tabelle wird rechts neben dem Blatt erzeugt. Da arcpy leider nicht die Gruppierung von Elementen zulässt muss dies ggf.
+von Hand vorgenommen werden.
+
+
+===== Repair Broken Links =====
+
+im Rahmen der Verzeichnisumstrukturierungen ("arbeiten_Projekte -> TNL_E/U etc.) sind aller Wahrscheinlichkeit nach und
+zu unser aller Freude so einige Datenquellen in den Projekten mit einem von uns so heiß geliebten Ausrufezeichen versehen.
+Wer diese doch nicht so gerne mag kann sich jetzt einen Kaffee kochen und sich mit Hilfe des „RepairBrokenLayers“ Buttons
+in der allbekannten Toolbar das Leben jetzt etwas leichter machen.
+
+<note important>Hinweis: der Button tauscht den Teil des Pfades aus welcher sich geändert hat. Das heißt konkret das er nicht für
+z.B. innerhalb des 05_GIS Ordners verschobene Shapes funktioniert.</note>
