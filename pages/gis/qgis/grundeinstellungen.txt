@@ -1,0 +1,8 @@
+====== Grundeinstellungen ======
+
+{{ :gis:qgis:grundeinstellungen.png?200|Grundeinstellungen Menü}}
+
+Als vorbeugende Maßnahme zur Vermeidung von Problemen mit spontaner Retransformation bei der Verwendung von Shapefiles mit unterschiedlichen Koordinatensystemen,
+wird an dieser Stelle empfohlen unter **> Einstellungen > Optionen* im Reiter KBS die Optionen *Spontanreprojektion nicht einschalten* aus zu wählen sowie als *Voreingestelltes KBS* das KBS mit EPSG:25832 / UTM zone 32N einzustellen. Weitere Informationen bezüglich Koordinatensystemen können unter [[gis:koordinatensysteme]]
+
+{{ :gis:qgis:grundeinstellungen2.png?200|Grundeinstellungs Fenster - Reiter KBS}}

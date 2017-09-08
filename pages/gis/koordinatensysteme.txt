@@ -21,8 +21,8 @@ In folgender Tabelle findet sich eine Auflistung der uns hauptsächlich betreffe
 | ETRS/UTM Zone 31N (N-zE) | 5651 |
 | ETRS/UTM Zone 32N (N-zE) | 5652 |
 | ETRS/UTM Zone 33N (N-zE) | 5653 |
-| ETRS/UTM Zone 33N | 25831 |
-| ETRS/UTM Zone 33N | 25832 |
+| ETRS/UTM Zone 31N | 25831 |
+| ETRS/UTM Zone 32N | 25832 |
 | ETRS/UTM Zone 33N | 25833 |
 
 Diese Koordinatensystem sind insbesondere auch bei den [[gis:arcgis:toolboxes:toolbox| hier]] zu findenden Tools in verwendung, sodass dieses in der Regel bei Nutzung dieser Projektionen sinnvolle Ergebnisse liefern sollten. Bei Verwendung von Projektionen mit anderen EPSG Codes sind bei den meisten Tools keine Einschränkungen zu erwarten jedoch kann es sein das Fehlermeldungen auftreten wenn keine passenden Transformationen von ArcGIS gefunden werden können. Hier sind nicht notwendigerweise alle Fehler abgefangen. Siehe hierzu auch im Kapitel [[gis:arcgis:toolboxes:toolbox#Toolbox Überblick]] den Hinweis zu Fehlermeldungen.
@@ -44,7 +44,7 @@ Es ist falls möglich immer die Reprojektion der On-the-fly Transformation der G
 
 ===== Hintergrund =====
 
-Projektionen dienen der Verebung von Ellipsoidoberflächen auf die Ebene. Neben etlichen weiteren Abbildungssystemen gibt es hier Gauß-Krüger (GK) (in der Vergangenheit der Standard in Deutschland) sowie UTM (Universal Transverse Mercator). Diese beiden Projektionen gehören zu den transversal konformen Zylinderabbildungen. Der Unterschied der beiden Systeme liegt im zugrundeliegenden Referenzellipsoid welcher bei den GK Koordinaten der Bessel repektive Krassowski Ellipsoid und bei UTM der GRS 80 Ellipsoid. Zusammen mit dem jeweiligen Referenzrahmen welches die gemessenen Punkte über einen Fundamentalpunkt mit dem Ellipsoiden verbindet ergbit sich so das Datum und ermöglicht die Beschreibung von realen Orten auf der Erde mittels Koordinaten.
+Projektionen dienen der Verebung von Ellipsoidoberflächen auf die Ebene. Neben etlichen weiteren Abbildungssystemen gibt es hier Gauß-Krüger (GK) (in der Vergangenheit der Standard in Deutschland) sowie UTM (Universal Transverse Mercator). Diese beiden Projektionen gehören zu den transversal konformen Zylinderabbildungen. Der Unterschied der beiden Systeme liegt im zugrundeliegenden Referenzellipsoid welcher bei den GK Koordinaten der Bessel repektive Krassowski Ellipsoid und bei UTM der GRS 80 Ellipsoid ist. Zusammen mit dem jeweiligen Referenzrahmen welches die gemessenen Punkte über einen Fundamentalpunkt mit dem Ellipsoiden verbindet ergbit sich so das Datum und ermöglicht die Beschreibung von realen Orten auf der Erde mittels Koordinaten.
 
 ==== DHDN/ Gauß-Krüger ====
 

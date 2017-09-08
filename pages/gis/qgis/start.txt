@@ -1,1 +1,8 @@
+====== QGIS ======
+
+In diesem Teil des Wikis befinden sich verschiedne Anleitungen/Dokumentationen zu alltäglichen QGIS Fragen.
+Insbesondere nach Installation von QGIS sei auf die Kapitel [[gis:qgis:Grundeinstellungen]] sowie auf [[gis:qgis:plugins]] hingewiesen.
+
+===== Seiten in diesem Wiki =====
+
 <nspages -simpleList -h1 -exclude:start>
