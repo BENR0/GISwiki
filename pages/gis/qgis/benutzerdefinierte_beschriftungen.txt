@@ -1,0 +1,23 @@
+====== Benutzerdefinierte Beschriftungen ======
+
+Benutzerdefinierte Beschriftungen (z.B. mit Führungslinien) sind in QGIS sind
+mittels *EasyCustomLabeling* Plugin möglich. Die Installation von Plugins kann
+unter [[:gis:qgis:plugins]] nachgelesen werden.
+
+{{ :gis:qgis:custom_labeling_1.png?200| Easy Labeling Toolbar Button}}
+{{ :gis:qgis:custom_labeling_2.png?200| Label Feld Auswahldialog}}
+{{ :gis:qgis:custom_labeling_3.png?200| Verschieben von Labels mit Führungslinie}}
+
+Nach Installation wird zunächst der Layer welcher Beschriftet werden soll im
+Layerfenster ausgewählt und dann über den *Easy Labeling Button* in der Toolbar das Tool
+aufgerufen. Im nun präsentierten Dialog muss nun das Feld welches zur
+Beschriftung verwendet werden soll ausgewählt werden. nach Bestätigung mit
+*OK* wird ein neuer temporärer Layer mit Beschriftungen angelegt. 
+
+<note important>Der erzeugte Layer ist ein temporäer Layer und muss ggf. noch als
+Shapefile gespeichert werden.</note>
+
+Dieser befindet sich sofort im Bearbeitungsmodus. Nun können z.B. mit dem
+*Beschriftungen und Diagramme verschieben* Button die Labels verschoben
+werden. Ist ein zufriedenstellendes Ergebnis erreicht ist die Bearbeitung zu
+speichern und der Bearbeitungsmodus zu beenden.
