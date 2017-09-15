@@ -1,11 +1,11 @@
 ====== Kilometrierung ======
 
+{{ :gis:qgis:kilometrierung_1.png?200| QChainage Toolbar Button}}
+
 Kilometrierungen in QGIS sind mittels *QChainage* Plugin möglich. Die
 Installation von Plugins kann unter [[:gis:qgis:plugins]] nachgelesen werden.
 
-{{ :gis:qgis:kilometrierung_1.png?200| QChainage Toolbar Button}}
 {{ :gis:qgis:kilometrierung_2.png?200| Basic tab}}
-{{ :gis:qgis:kilometrierung_3.png?200| Labeling Tab}}
 
 Nach Installation wird über den *QChainage Button* in der Toolbar das Tool
 aufgerufen. Nach Auswahl des Layers für welchen Kilometrierungspunkte erstellt
@@ -15,9 +15,9 @@ der vom Tool erzeugte Layer automatisch auch beschriftet werden soll.
 
 Mit Bestätigung auf *OK* wird ein neuer Layer mit den Kilometrierungspunkten
 im gewählten Abstand erzeugt.
-
 <note important>Der erzeugte Layer ist ein temporäer Layer und muss ggf. noch als
 Shapefile gespeichert werden.</note>
+{{ :gis:qgis:kilometrierung_3.png?200| Labeling Tab}}
 
 ===== Anpassen der Beschriftung =====
 
