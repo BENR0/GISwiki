@@ -4,7 +4,7 @@ Mittels Plugins können zusätzliche Funktionen zu QGIS hinzugefügt werden. Die
 
 {{:gis:qgis:plugins.png?200|}}
 
-Im Plugin Fenster könnne über das Suchfeld entsprechende Plugins gesucht und dann mit klick auf *Erweiterung installieren* hinzugefügt werden (siehe Screenshot).
+Im Plugin Fenster könnnen über das Suchfeld entsprechende Plugins gesucht und dann mit klick auf *Erweiterung installieren* hinzugefügt werden (siehe Screenshot).
 
 {{:gis:qgis:plugins2.png?200|}}
 

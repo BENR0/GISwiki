@@ -12,6 +12,7 @@ Zum Export von Daten aus Attributtabellen kann folgendermaßen vorgegangen werde
 
 ===== Möglichkeit 2 =====
 
+Hierzu ist es notwendig das xyTools Plugin zu installieren, die Anleitung dazu findet sich unter [[gis:qgis:plugins]].
 Nach Auswahl der zu exportierenden Daten wie in Schritt 1. und 2. oben beschrieben, nutzung der Exportmöglichkeit nach Excel mittels des Vektor Menüs wie auf folgendem Screenshot zu sehen.
 
 {{:gis:qgis:export_attributes.png?200|}}

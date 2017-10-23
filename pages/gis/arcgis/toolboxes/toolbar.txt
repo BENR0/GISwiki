@@ -60,13 +60,13 @@ Es gibt noch einen Bug in der Validierung der Daten nach dem kopieren. Falls im 
 </note>
 
 
-==== Reproject =====
+===== Reproject =====
 
 Dieser Button dient dazu zeitsparend alle im Projekt vorhandenen Shapefiles auf die Projektion des Datenrahmens umzuprojezieren. Hierbei wird in der Regel auch etwaige zutreffende Transformation angewendet.
 Die umprojezierten Shape files werden mit dem Dateinamen angehängten Namen des Zielkoordinatensystems im selben Ordner wie das alte Shape abgespeichert.
 
 <note warning>
-Leider gibt es noch einen Bug, welcher in einigen Kombinationen von Koordinatensystemen das anwenden der richtigen Transformation verhindert. Dies liegt an einer ArcGIS spezifischen Eigenart wie Projektionen basierend auf dem DHDN mit Namen versehen sind. Entweder wird die Projektion mit Fehlermeldung abgebrochen oder ohne Transformation (und damit im Zweifel etwas geringerer Genauigkeit) trotzdem durchgeführt. Dieser Bug wird bei Gelegenheit behoben.
+Leider gibt es noch einen Bug, welcher in einigen Kombinationen von Koordinatensystemen das anwenden der richtigen Transformation verhindert. Dies liegt an einer ArcGIS spezifischen Eigenart wie Projektionen basierend auf dem DHDN mit Namen versehen sind. Entweder wird die Projektion mit Fehlermeldung abgebrochen oder ohne Transformation (und damit im Zweifel etwas geringerer Genauigkeit) trotzdem durchgeführt.
 </note>
 
 
@@ -123,6 +123,10 @@ Wenn Definitionsabfragen auf Layers geschaltet sind werden auch nur die Abgefrag
 Im Inhaltsverzeichnis den Layer auswählen für welchen eine Tabelle mit Vogelnamen und Abkürzungen für die Legende benötigt wird.
 Dann auf den Button klicken. Die Tabelle wird rechts neben dem Blatt erzeugt. Da arcpy leider nicht die Gruppierung von Elementen zulässt muss dies ggf.
 von Hand vorgenommen werden.
+
+
+===== RenameLayers =====
+Bennent Layer im Table of Contents basierend auf den tatsächlichen Dateinamen der zugrunde liegenden Shapefiles um.
 
 
 ===== Repair Broken Links =====
