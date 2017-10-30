@@ -9,9 +9,9 @@ Installation von Plugins kann unter [[:gis:qgis:plugins]] nachgelesen werden.
 
 Nach Installation wird über den *QChainage Button* in der Toolbar das Tool
 aufgerufen. Nach Auswahl des Layers für welchen Kilometrierungspunkte erstellt
-werdens sollen ist gegebenenfalls noch ein Häckchen bei den Optionen zum
+werden sollen ist gegebenenfalls noch ein Häckchen bei den Optionen zum
 Labeln des letzen Punktes zu setzen. Im Tab *Labeling* kann gewählt werden ob
-der vom Tool erzeugte Layer automatisch auch beschriftet werden soll.
+der vom Tool erzeugte Layer auch automatisch beschriftet werden soll.
 
 Mit Bestätigung auf *OK* wird ein neuer Layer mit den Kilometrierungspunkten
 im gewählten Abstand erzeugt.
